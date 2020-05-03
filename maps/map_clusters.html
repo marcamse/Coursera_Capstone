@@ -1,0 +1,4387 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_dbac2cae45fb4c28b0db10627a6773e2 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_dbac2cae45fb4c28b0db10627a6773e2" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_dbac2cae45fb4c28b0db10627a6773e2 = L.map(
+                                  'map_dbac2cae45fb4c28b0db10627a6773e2',
+                                  {center: [40.4167047,-3.7035825],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_bf711836015345c68f4544577e466e58 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+        
+    
+            var circle_marker_16165fa6764c4f44a5218e859d061cb6 = L.circleMarker(
+                [40.3809981,-3.7279849],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_5d3c0c6560c047c891a3cda9319b0ff1 = L.popup({maxWidth: '300'});
+
+            
+                var html_b7a0981ca50c4f10840876b237d6f47b = $('<div id="html_b7a0981ca50c4f10840876b237d6f47b" style="width: 100.0%; height: 100.0%;">ABRANTES             Cluster 0 / Mid-low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_5d3c0c6560c047c891a3cda9319b0ff1.setContent(html_b7a0981ca50c4f10840876b237d6f47b);
+            
+
+            circle_marker_16165fa6764c4f44a5218e859d061cb6.bindPopup(popup_5d3c0c6560c047c891a3cda9319b0ff1);
+
+            
+        
+    
+            var circle_marker_9440f23e02754d14a681727c92bbbda6 = L.circleMarker(
+                [40.4040749,-3.7059572],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_64fb5b101e17452b91e7e8c34c95f6a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_79bf9b086bc0485885c5c686fc44baa4 = $('<div id="html_79bf9b086bc0485885c5c686fc44baa4" style="width: 100.0%; height: 100.0%;">ACACIAS              Cluster 1 / Mid Income / Mid Pop / High Age</div>')[0];
+                popup_64fb5b101e17452b91e7e8c34c95f6a2.setContent(html_79bf9b086bc0485885c5c686fc44baa4);
+            
+
+            circle_marker_9440f23e02754d14a681727c92bbbda6.bindPopup(popup_64fb5b101e17452b91e7e8c34c95f6a2);
+
+            
+        
+    
+            var circle_marker_3f2b27ef6f6c474183e18594cb1f6ebb = L.circleMarker(
+                [40.40027955,-3.671773637809761],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_0f2d3beeb9404e6691fe1c0ce2758fe3 = L.popup({maxWidth: '300'});
+
+            
+                var html_a8b1f75008a64a9598834754eb532517 = $('<div id="html_a8b1f75008a64a9598834754eb532517" style="width: 100.0%; height: 100.0%;">ADELFAS              Cluster 1 / Mid Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_0f2d3beeb9404e6691fe1c0ce2758fe3.setContent(html_a8b1f75008a64a9598834754eb532517);
+            
+
+            circle_marker_3f2b27ef6f6c474183e18594cb1f6ebb.bindPopup(popup_0f2d3beeb9404e6691fe1c0ce2758fe3);
+
+            
+        
+    
+            var circle_marker_7e54d4db9e934321896664da798ae530 = L.circleMarker(
+                [40.494167,-3.5669440000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_93c86053e5f74438987c03892fb27703 = L.popup({maxWidth: '300'});
+
+            
+                var html_b2dcd61e56764968bcec06cc5f7d9ea8 = $('<div id="html_b2dcd61e56764968bcec06cc5f7d9ea8" style="width: 100.0%; height: 100.0%;">AEROPUERTO           Cluster 0 / Low Income / Low Pop / Mid Age</div>')[0];
+                popup_93c86053e5f74438987c03892fb27703.setContent(html_b2dcd61e56764968bcec06cc5f7d9ea8);
+            
+
+            circle_marker_7e54d4db9e934321896664da798ae530.bindPopup(popup_93c86053e5f74438987c03892fb27703);
+
+            
+        
+    
+            var circle_marker_c8ef24e4988347eaa292e04b4159077b = L.circleMarker(
+                [40.457221999999994,-3.5877779999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_a35e26505a3e463fb596c1f76e34d130 = L.popup({maxWidth: '300'});
+
+            
+                var html_009a21d0740c4b109630d7de390e6a91 = $('<div id="html_009a21d0740c4b109630d7de390e6a91" style="width: 100.0%; height: 100.0%;">ALAMEDA DE OSUNA     Cluster 1 / Mid Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_a35e26505a3e463fb596c1f76e34d130.setContent(html_009a21d0740c4b109630d7de390e6a91);
+            
+
+            circle_marker_c8ef24e4988347eaa292e04b4159077b.bindPopup(popup_a35e26505a3e463fb596c1f76e34d130);
+
+            
+        
+    
+            var circle_marker_85f50c5e046249a7a2352d5b98b0ea50 = L.circleMarker(
+                [40.4313814,-3.6930142045414542],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_06cf6a5b8ee4408dba6c0d49d2107b92 = L.popup({maxWidth: '300'});
+
+            
+                var html_f35b7c99d69142668fd1d304c7acf670 = $('<div id="html_f35b7c99d69142668fd1d304c7acf670" style="width: 100.0%; height: 100.0%;">ALMAGRO              Cluster 4 / High Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_06cf6a5b8ee4408dba6c0d49d2107b92.setContent(html_f35b7c99d69142668fd1d304c7acf670);
+            
+
+            circle_marker_85f50c5e046249a7a2352d5b98b0ea50.bindPopup(popup_06cf6a5b8ee4408dba6c0d49d2107b92);
+
+            
+        
+    
+            var circle_marker_bf48351cf8004b799bff409939b9aaae = L.circleMarker(
+                [40.47013305,-3.6942947705462523],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_7e6dbf424dc84b42908899a386f86a91 = L.popup({maxWidth: '300'});
+
+            
+                var html_0028468d903845b3aef7483e3169bd40 = $('<div id="html_0028468d903845b3aef7483e3169bd40" style="width: 100.0%; height: 100.0%;">ALMENARA             Cluster 3 / Mid-low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_7e6dbf424dc84b42908899a386f86a91.setContent(html_0028468d903845b3aef7483e3169bd40);
+            
+
+            circle_marker_bf48351cf8004b799bff409939b9aaae.bindPopup(popup_7e6dbf424dc84b42908899a386f86a91);
+
+            
+        
+    
+            var circle_marker_20ba68183bf144af82b7e066fa7cab4d = L.circleMarker(
+                [40.3836929,-3.6990958688243847],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_3267ab0d444a4e11922d0836cfc781b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_540899f9165b4b6ea8116c03282c6fc7 = $('<div id="html_540899f9165b4b6ea8116c03282c6fc7" style="width: 100.0%; height: 100.0%;">ALMENDRALES          Cluster 0 / Low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_3267ab0d444a4e11922d0836cfc781b5.setContent(html_540899f9165b4b6ea8116c03282c6fc7);
+            
+
+            circle_marker_20ba68183bf144af82b7e066fa7cab4d.bindPopup(popup_3267ab0d444a4e11922d0836cfc781b5);
+
+            
+        
+    
+            var circle_marker_2d7f4dcd3a6e49a0a068693da4bdbbdb = L.circleMarker(
+                [40.38792279999999,-3.7548538999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_12fb54ae7d4843058d9ef94029190760 = L.popup({maxWidth: '300'});
+
+            
+                var html_9d9b9d25b49548cd8a757bcb4968ae2b = $('<div id="html_9d9b9d25b49548cd8a757bcb4968ae2b" style="width: 100.0%; height: 100.0%;">ALUCHE               Cluster 2 / Mid-low Income / Mid-high Pop / High Age</div>')[0];
+                popup_12fb54ae7d4843058d9ef94029190760.setContent(html_9d9b9d25b49548cd8a757bcb4968ae2b);
+            
+
+            circle_marker_2d7f4dcd3a6e49a0a068693da4bdbbdb.bindPopup(popup_12fb54ae7d4843058d9ef94029190760);
+
+            
+        
+    
+            var circle_marker_0c242c90e73741aa86475fdb16cfe6ef = L.circleMarker(
+                [40.4259727,-3.6222730602685362],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_e261c981c7c54b479f9d5fc3f665e75b = L.popup({maxWidth: '300'});
+
+            
+                var html_49c08eedcb5245f7a6212f2dacea3e3c = $('<div id="html_49c08eedcb5245f7a6212f2dacea3e3c" style="width: 100.0%; height: 100.0%;">AMPOSTA              Cluster 0 / Low Income / Low Pop / Mid-high age</div>')[0];
+                popup_e261c981c7c54b479f9d5fc3f665e75b.setContent(html_49c08eedcb5245f7a6212f2dacea3e3c);
+            
+
+            circle_marker_0c242c90e73741aa86475fdb16cfe6ef.bindPopup(popup_e261c981c7c54b479f9d5fc3f665e75b);
+
+            
+        
+    
+            var circle_marker_c92f6572d57c45eaa2bc02e4e78b9e0f = L.circleMarker(
+                [40.47620429999999,-3.6580163115729967],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_f647e6a4afd84abea973cb6f5ecb6b0d = L.popup({maxWidth: '300'});
+
+            
+                var html_06e68b69ac98450ea1961fa1f4d371d2 = $('<div id="html_06e68b69ac98450ea1961fa1f4d371d2" style="width: 100.0%; height: 100.0%;">APOSTOL SANTIAGO     Cluster 3 / Mid-low Income / Low Pop / Mid-high age</div>')[0];
+                popup_f647e6a4afd84abea973cb6f5ecb6b0d.setContent(html_06e68b69ac98450ea1961fa1f4d371d2);
+            
+
+            circle_marker_c92f6572d57c45eaa2bc02e4e78b9e0f.bindPopup(popup_f647e6a4afd84abea973cb6f5ecb6b0d);
+
+            
+        
+    
+            var circle_marker_74f290c5ffc54cfb8434f6f319d361e8 = L.circleMarker(
+                [40.43418655,-3.707922533247423],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_b239640162a34c17b4509789d8be7a85 = L.popup({maxWidth: '300'});
+
+            
+                var html_279abb64ea2744b5931ee42582d4867c = $('<div id="html_279abb64ea2744b5931ee42582d4867c" style="width: 100.0%; height: 100.0%;">ARAPILES             Cluster 1 / Mid Income / Mid-low Pop / High Age</div>')[0];
+                popup_b239640162a34c17b4509789d8be7a85.setContent(html_279abb64ea2744b5931ee42582d4867c);
+            
+
+            circle_marker_74f290c5ffc54cfb8434f6f319d361e8.bindPopup(popup_b239640162a34c17b4509789d8be7a85);
+
+            
+        
+    
+            var circle_marker_78f04f2794554111acf9305d2622b7f5 = L.circleMarker(
+                [40.457749,-3.7827941],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_87e3a1899fcd4087b03ea379f62a260d = L.popup({maxWidth: '300'});
+
+            
+                var html_fe372cd66a004e379b41f8b19a6e0819 = $('<div id="html_fe372cd66a004e379b41f8b19a6e0819" style="width: 100.0%; height: 100.0%;">ARAVACA              Cluster 1 / Mid-high Income / Mid-low Pop / Mid Age</div>')[0];
+                popup_87e3a1899fcd4087b03ea379f62a260d.setContent(html_fe372cd66a004e379b41f8b19a6e0819);
+            
+
+            circle_marker_78f04f2794554111acf9305d2622b7f5.bindPopup(popup_87e3a1899fcd4087b03ea379f62a260d);
+
+            
+        
+    
+            var circle_marker_eaac2e5b71e04dbdbebcbfe790730fc9 = L.circleMarker(
+                [40.4208334,-3.6184063519848095],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_09a781b986bf4a01a53c276dc9a87743 = L.popup({maxWidth: '300'});
+
+            
+                var html_c5f0b4edb92d4e96822a485cf64f83e6 = $('<div id="html_c5f0b4edb92d4e96822a485cf64f83e6" style="width: 100.0%; height: 100.0%;">ARCOS                Cluster 0 / Mid-low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_09a781b986bf4a01a53c276dc9a87743.setContent(html_c5f0b4edb92d4e96822a485cf64f83e6);
+            
+
+            circle_marker_eaac2e5b71e04dbdbebcbfe790730fc9.bindPopup(popup_09a781b986bf4a01a53c276dc9a87743);
+
+            
+        
+    
+            var circle_marker_34ca5e3ed3bf42048d26ef2e4e7d6864 = L.circleMarker(
+                [40.4283434,-3.7176358],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_cfdd0e3530ac40ed94dbb22b1fcdaed8 = L.popup({maxWidth: '300'});
+
+            
+                var html_87d21af10805467a91fde6a7bb43a984 = $('<div id="html_87d21af10805467a91fde6a7bb43a984" style="width: 100.0%; height: 100.0%;">ARGUELLES            Cluster 1 / Mid-high Income / Mid-low Pop / High Age</div>')[0];
+                popup_cfdd0e3530ac40ed94dbb22b1fcdaed8.setContent(html_87d21af10805467a91fde6a7bb43a984);
+            
+
+            circle_marker_34ca5e3ed3bf42048d26ef2e4e7d6864.bindPopup(popup_cfdd0e3530ac40ed94dbb22b1fcdaed8);
+
+            
+        
+    
+            var circle_marker_3f782aa6046f4656a7525893775f5bc0 = L.circleMarker(
+                [40.46380445,-3.664578847937272],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_718197acfefd46458f6177e49c1d284c = L.popup({maxWidth: '300'});
+
+            
+                var html_cb73792e166e44d2991e7bc83eeae491 = $('<div id="html_cb73792e166e44d2991e7bc83eeae491" style="width: 100.0%; height: 100.0%;">ATALAYA              Cluster 4 / High Income / Low Pop / Mid-high age</div>')[0];
+                popup_718197acfefd46458f6177e49c1d284c.setContent(html_cb73792e166e44d2991e7bc83eeae491);
+            
+
+            circle_marker_3f782aa6046f4656a7525893775f5bc0.bindPopup(popup_718197acfefd46458f6177e49c1d284c);
+
+            
+        
+    
+            var circle_marker_d9d8ae7da2c5467b8f87415e8a48a50d = L.circleMarker(
+                [40.4052036,-3.6879295943334167],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_10740cda152644889caf7f261f85d113 = L.popup({maxWidth: '300'});
+
+            
+                var html_fd6f87842e614270b3c66e0645753211 = $('<div id="html_fd6f87842e614270b3c66e0645753211" style="width: 100.0%; height: 100.0%;">ATOCHA               Cluster 3 / Mid-low Income / Low Pop / Mid-low Age</div>')[0];
+                popup_10740cda152644889caf7f261f85d113.setContent(html_fd6f87842e614270b3c66e0645753211);
+            
+
+            circle_marker_d9d8ae7da2c5467b8f87415e8a48a50d.bindPopup(popup_10740cda152644889caf7f261f85d113);
+
+            
+        
+    
+            var circle_marker_e89008d175794a1aa93a9f965d3a7492 = L.circleMarker(
+                [40.45226305,-3.7074445272219143],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_8c91cfdfc4a4411ebc720c5958c343d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_5205b38f844a4b719f7161245efe3a58 = $('<div id="html_5205b38f844a4b719f7161245efe3a58" style="width: 100.0%; height: 100.0%;">BELLAS VISTAS        Cluster 0 / Mid-low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_8c91cfdfc4a4411ebc720c5958c343d1.setContent(html_5205b38f844a4b719f7161245efe3a58);
+            
+
+            circle_marker_e89008d175794a1aa93a9f965d3a7492.bindPopup(popup_8c91cfdfc4a4411ebc720c5958c343d1);
+
+            
+        
+    
+            var circle_marker_c1713583a0f04d3e95a623fd1a0f8465 = L.circleMarker(
+                [40.45938750000001,-3.7049237399979775],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_3efd4c670e204d02bcf675d03af4ab0d = L.popup({maxWidth: '300'});
+
+            
+                var html_01c3ab5e65694831a4468ca32d17f81d = $('<div id="html_01c3ab5e65694831a4468ca32d17f81d" style="width: 100.0%; height: 100.0%;">BERRUGUETE           Cluster 0 / Mid-low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_3efd4c670e204d02bcf675d03af4ab0d.setContent(html_01c3ab5e65694831a4468ca32d17f81d);
+            
+
+            circle_marker_c1713583a0f04d3e95a623fd1a0f8465.bindPopup(popup_3efd4c670e204d02bcf675d03af4ab0d);
+
+            
+        
+    
+            var circle_marker_ad0eb1c268334b4aa16c147c2049c58c = L.circleMarker(
+                [40.37283060000001,-3.7430863],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_703e41e41f1e4355bc2a836c27ad4461 = L.popup({maxWidth: '300'});
+
+            
+                var html_8c376f8f5cbc4609964d7376008903bb = $('<div id="html_8c376f8f5cbc4609964d7376008903bb" style="width: 100.0%; height: 100.0%;">BUENAVISTA           Cluster 2 / Mid-low Income / Mid Pop / Mid Age</div>')[0];
+                popup_703e41e41f1e4355bc2a836c27ad4461.setContent(html_8c376f8f5cbc4609964d7376008903bb);
+            
+
+            circle_marker_ad0eb1c268334b4aa16c147c2049c58c.bindPopup(popup_703e41e41f1e4355bc2a836c27ad4461);
+
+            
+        
+    
+            var circle_marker_8aac5e42196f4b869342b6b98a14348a = L.circleMarker(
+                [40.3399339,-3.6733878585167616],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_790fa76ddc6d4bdf93fae3b1e547909e = L.popup({maxWidth: '300'});
+
+            
+                var html_ed8f000f0ebf4aa1b4b1f2ba3ad41256 = $('<div id="html_ed8f000f0ebf4aa1b4b1f2ba3ad41256" style="width: 100.0%; height: 100.0%;">BUTARQUE             Cluster 0 / Mid-low Income / Mid-low Pop / Mid-low Age</div>')[0];
+                popup_790fa76ddc6d4bdf93fae3b1e547909e.setContent(html_ed8f000f0ebf4aa1b4b1f2ba3ad41256);
+            
+
+            circle_marker_8aac5e42196f4b869342b6b98a14348a.bindPopup(popup_790fa76ddc6d4bdf93fae3b1e547909e);
+
+            
+        
+    
+            var circle_marker_0e3d9fcba74e4b30ad4a828ada5ea63f = L.circleMarker(
+                [40.384107799999995,-3.786398],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_5ba588253dfa4c1e9eaffcc881c2bef8 = L.popup({maxWidth: '300'});
+
+            
+                var html_c6e2a151eb024be1945d6597fa1e3080 = $('<div id="html_c6e2a151eb024be1945d6597fa1e3080" style="width: 100.0%; height: 100.0%;">CAMPAMENTO           Cluster 3 / Mid-low Income / Mid-low Pop / High Age</div>')[0];
+                popup_5ba588253dfa4c1e9eaffcc881c2bef8.setContent(html_c6e2a151eb024be1945d6597fa1e3080);
+            
+
+            circle_marker_0e3d9fcba74e4b30ad4a828ada5ea63f.bindPopup(popup_5ba588253dfa4c1e9eaffcc881c2bef8);
+
+            
+        
+    
+            var circle_marker_467ac355ad2f4127b2258793b476f8b3 = L.circleMarker(
+                [40.4629521,-3.641542692228097],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_b1538cfd6f2544778a956f4cbf75f0c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_a31aa74792f449398418b8e6eaa9caa5 = $('<div id="html_a31aa74792f449398418b8e6eaa9caa5" style="width: 100.0%; height: 100.0%;">CANILLAS             Cluster 2 / Mid Income / Mid Pop / High Age</div>')[0];
+                popup_b1538cfd6f2544778a956f4cbf75f0c4.setContent(html_a31aa74792f449398418b8e6eaa9caa5);
+            
+
+            circle_marker_467ac355ad2f4127b2258793b476f8b3.bindPopup(popup_b1538cfd6f2544778a956f4cbf75f0c4);
+
+            
+        
+    
+            var circle_marker_b55fa190aa0f430480d78ef4ff48d10a = L.circleMarker(
+                [40.4473219,-3.608456],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_77892dc2b4634d06b84d73e5517b8979 = L.popup({maxWidth: '300'});
+
+            
+                var html_c122b5877eb64ac1bed7f3c68c4f28bb = $('<div id="html_c122b5877eb64ac1bed7f3c68c4f28bb" style="width: 100.0%; height: 100.0%;">CANILLEJAS           Cluster 0 / Mid-low Income / Mid-low Pop / High Age</div>')[0];
+                popup_77892dc2b4634d06b84d73e5517b8979.setContent(html_c122b5877eb64ac1bed7f3c68c4f28bb);
+            
+
+            circle_marker_b55fa190aa0f430480d78ef4ff48d10a.bindPopup(popup_77892dc2b4634d06b84d73e5517b8979);
+
+            
+        
+    
+            var circle_marker_c4ef577b201848449b74dfae6ddc22c0 = L.circleMarker(
+                [40.42406795,-3.7558575572884716],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_8320caba50964b80af1176764b5c53f3 = L.popup({maxWidth: '300'});
+
+            
+                var html_e7cdadaa34144ce58a56d7b2c6ca1875 = $('<div id="html_e7cdadaa34144ce58a56d7b2c6ca1875" style="width: 100.0%; height: 100.0%;">CASA DE CAMPO        Cluster 1 / Mid-high Income / Low Pop / High Age</div>')[0];
+                popup_8320caba50964b80af1176764b5c53f3.setContent(html_e7cdadaa34144ce58a56d7b2c6ca1875);
+            
+
+            circle_marker_c4ef577b201848449b74dfae6ddc22c0.bindPopup(popup_8320caba50964b80af1176764b5c53f3);
+
+            
+        
+    
+            var circle_marker_56ae993f1ab84172b9dc25e9d07780fd = L.circleMarker(
+                [40.473611,-3.577222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_c6a6d99ffeab4391bade74943f9b2c8f = L.popup({maxWidth: '300'});
+
+            
+                var html_50c8645a77b5495ab8fd9bac7980cd11 = $('<div id="html_50c8645a77b5495ab8fd9bac7980cd11" style="width: 100.0%; height: 100.0%;">CASCO H.BARAJAS      Cluster 3 / Mid-low Income / Low Pop / Mid-high age</div>')[0];
+                popup_c6a6d99ffeab4391bade74943f9b2c8f.setContent(html_50c8645a77b5495ab8fd9bac7980cd11);
+            
+
+            circle_marker_56ae993f1ab84172b9dc25e9d07780fd.bindPopup(popup_c6a6d99ffeab4391bade74943f9b2c8f);
+
+            
+        
+    
+            var circle_marker_8007c45b23ec4167873257aa8c2670f2 = L.circleMarker(
+                [40.34820155,-3.615319616841058],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_a4ea1beb215746cd957093312272c8de = L.popup({maxWidth: '300'});
+
+            
+                var html_99c7aa95690d44eda56962ab03a8b07c = $('<div id="html_99c7aa95690d44eda56962ab03a8b07c" style="width: 100.0%; height: 100.0%;">CASCO H.VALLECAS     Cluster 2 / Mid-low Income / High Pop / Mid-low Age</div>')[0];
+                popup_a4ea1beb215746cd957093312272c8de.setContent(html_99c7aa95690d44eda56962ab03a8b07c);
+            
+
+            circle_marker_8007c45b23ec4167873257aa8c2670f2.bindPopup(popup_a4ea1beb215746cd957093312272c8de);
+
+            
+        
+    
+            var circle_marker_7acd61b894ef45e9a1f28101d069e0e8 = L.circleMarker(
+                [40.3879435,-3.5762740155666424],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_78f8c644b12f4ff9bc565cb7895e518c = L.popup({maxWidth: '300'});
+
+            
+                var html_8c16352005534c2d8400fa93c2b4c200 = $('<div id="html_8c16352005534c2d8400fa93c2b4c200" style="width: 100.0%; height: 100.0%;">CASCO H.VICALVARO    Cluster 2 / Mid-low Income / Mid-high Pop / Mid Age</div>')[0];
+                popup_78f8c644b12f4ff9bc565cb7895e518c.setContent(html_8c16352005534c2d8400fa93c2b4c200);
+            
+
+            circle_marker_7acd61b894ef45e9a1f28101d069e0e8.bindPopup(popup_78f8c644b12f4ff9bc565cb7895e518c);
+
+            
+        
+    
+            var circle_marker_0d11d49ecef4498086bf4bc6d69b113c = L.circleMarker(
+                [40.43382275,-3.684003582451164],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_0cf1438897fb46c3acb9bb666ea8c8da = L.popup({maxWidth: '300'});
+
+            
+                var html_0b5b6e3b0d46420eaf970e716fae25b9 = $('<div id="html_0b5b6e3b0d46420eaf970e716fae25b9" style="width: 100.0%; height: 100.0%;">CASTELLANA           Cluster 4 / High Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_0cf1438897fb46c3acb9bb666ea8c8da.setContent(html_0b5b6e3b0d46420eaf970e716fae25b9);
+            
+
+            circle_marker_0d11d49ecef4498086bf4bc6d69b113c.bindPopup(popup_0cf1438897fb46c3acb9bb666ea8c8da);
+
+            
+        
+    
+            var circle_marker_510195099d46407f889c58dfa20542d1 = L.circleMarker(
+                [40.47498925,-3.6804513931635614],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_04f1ef4e1b1f402fb4ba75205db6a390 = L.popup({maxWidth: '300'});
+
+            
+                var html_0bbcf54cb61141b08334e4eda7b076d7 = $('<div id="html_0bbcf54cb61141b08334e4eda7b076d7" style="width: 100.0%; height: 100.0%;">CASTILLA             Cluster 1 / Mid-high Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_04f1ef4e1b1f402fb4ba75205db6a390.setContent(html_0bbcf54cb61141b08334e4eda7b076d7);
+            
+
+            circle_marker_510195099d46407f889c58dfa20542d1.bindPopup(popup_04f1ef4e1b1f402fb4ba75205db6a390);
+
+            
+        
+    
+            var circle_marker_309e31d0a6284f618c5e9187200eb9e9 = L.circleMarker(
+                [40.46148275,-3.6938777554852],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_65806e8fd9c14147976f59924147e7d8 = L.popup({maxWidth: '300'});
+
+            
+                var html_4010fd924f1a445ead1af82215ef2fc4 = $('<div id="html_4010fd924f1a445ead1af82215ef2fc4" style="width: 100.0%; height: 100.0%;">CASTILLEJOS          Cluster 1 / Mid-high Income / Mid-low Pop / High Age</div>')[0];
+                popup_65806e8fd9c14147976f59924147e7d8.setContent(html_4010fd924f1a445ead1af82215ef2fc4);
+            
+
+            circle_marker_309e31d0a6284f618c5e9187200eb9e9.bindPopup(popup_65806e8fd9c14147976f59924147e7d8);
+
+            
+        
+    
+            var circle_marker_2628f942becc4016b89dba8b0b83d3b5 = L.circleMarker(
+                [40.39489315,-3.699705113463008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_3845384e86b84f98907025aaa86f29c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_786479cc5ed1441abffb95ef4e5650a1 = $('<div id="html_786479cc5ed1441abffb95ef4e5650a1" style="width: 100.0%; height: 100.0%;">CHOPERA              Cluster 3 / Mid-low Income / Mid-low Pop / High Age</div>')[0];
+                popup_3845384e86b84f98907025aaa86f29c1.setContent(html_786479cc5ed1441abffb95ef4e5650a1);
+            
+
+            circle_marker_2628f942becc4016b89dba8b0b83d3b5.bindPopup(popup_3845384e86b84f98907025aaa86f29c1);
+
+            
+        
+    
+            var circle_marker_545c8749688d44d7bf6d03c46901e79d = L.circleMarker(
+                [40.44674675,-3.6741229415529766],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_4ca660a6210d4630861d80c3388bc8ce = L.popup({maxWidth: '300'});
+
+            
+                var html_a8e9be132b504175a3a54478f20bb4dd = $('<div id="html_a8e9be132b504175a3a54478f20bb4dd" style="width: 100.0%; height: 100.0%;">CIUDAD JARDIN        Cluster 1 / Mid Income / Mid-low Pop / High Age</div>')[0];
+                popup_4ca660a6210d4630861d80c3388bc8ce.setContent(html_a8e9be132b504175a3a54478f20bb4dd);
+            
+
+            circle_marker_545c8749688d44d7bf6d03c46901e79d.bindPopup(popup_4ca660a6210d4630861d80c3388bc8ce);
+
+            
+        
+    
+            var circle_marker_e52033b3582a40a5b5ac727defe426b4 = L.circleMarker(
+                [40.4436804,-3.7268294],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_6757f8f3b44947c3aa2bd0a78d587cea = L.popup({maxWidth: '300'});
+
+            
+                var html_4d67891e7e144fb4b36f6410d7b8060e = $('<div id="html_4d67891e7e144fb4b36f6410d7b8060e" style="width: 100.0%; height: 100.0%;">CIUDAD UNIVERSITARIA Cluster 1 / Mid-high Income / Mid-low Pop / High Age</div>')[0];
+                popup_6757f8f3b44947c3aa2bd0a78d587cea.setContent(html_4d67891e7e144fb4b36f6410d7b8060e);
+            
+
+            circle_marker_e52033b3582a40a5b5ac727defe426b4.bindPopup(popup_6757f8f3b44947c3aa2bd0a78d587cea);
+
+            
+        
+    
+            var circle_marker_c64506773b7b4cbf8710a2a2b277b70b = L.circleMarker(
+                [40.45824765,-3.6597056668499386],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_eb8dbcb931834184a5efc7ffa15a321e = L.popup({maxWidth: '300'});
+
+            
+                var html_7b08ad0ef91345828e39fc74292c4a10 = $('<div id="html_7b08ad0ef91345828e39fc74292c4a10" style="width: 100.0%; height: 100.0%;">COLINA               Cluster 1 / Mid-high Income / Low Pop / Mid-high age</div>')[0];
+                popup_eb8dbcb931834184a5efc7ffa15a321e.setContent(html_7b08ad0ef91345828e39fc74292c4a10);
+            
+
+            circle_marker_c64506773b7b4cbf8710a2a2b277b70b.bindPopup(popup_eb8dbcb931834184a5efc7ffa15a321e);
+
+            
+        
+    
+            var circle_marker_eb179cb7987b4bebad6fa95eea24891e = L.circleMarker(
+                [40.39282545,-3.7141869541784382],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_2c2fd59c2d9d4b81b0ac12a42632ced1 = L.popup({maxWidth: '300'});
+
+            
+                var html_1844447e54e1440b98a75438e3beae3b = $('<div id="html_1844447e54e1440b98a75438e3beae3b" style="width: 100.0%; height: 100.0%;">COMILLAS             Cluster 3 / Mid-low Income / Mid-low Pop / High Age</div>')[0];
+                popup_2c2fd59c2d9d4b81b0ac12a42632ced1.setContent(html_1844447e54e1440b98a75438e3beae3b);
+            
+
+            circle_marker_eb179cb7987b4bebad6fa95eea24891e.bindPopup(popup_2c2fd59c2d9d4b81b0ac12a42632ced1);
+
+            
+        
+    
+            var circle_marker_0bf4f84453504c389859babe04013bbc = L.circleMarker(
+                [40.439118799999996,-3.648896258038653],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_bf235cccc2744d2f93dd257070421f32 = L.popup({maxWidth: '300'});
+
+            
+                var html_27a7aefad2254594bcfb8b614d8c3234 = $('<div id="html_27a7aefad2254594bcfb8b614d8c3234" style="width: 100.0%; height: 100.0%;">CONCEPCION           Cluster 3 / Mid Income / Mid-low Pop / High Age</div>')[0];
+                popup_bf235cccc2744d2f93dd257070421f32.setContent(html_27a7aefad2254594bcfb8b614d8c3234);
+            
+
+            circle_marker_0bf4f84453504c389859babe04013bbc.bindPopup(popup_bf235cccc2744d2f93dd257070421f32);
+
+            
+        
+    
+            var circle_marker_dcb7923f7ddf4400ae36829674aa4cd0 = L.circleMarker(
+                [40.464444,-3.59],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_0071cac0429b45998424dff53e536996 = L.popup({maxWidth: '300'});
+
+            
+                var html_490023bfdb694de8b09d223141842e1b = $('<div id="html_490023bfdb694de8b09d223141842e1b" style="width: 100.0%; height: 100.0%;">CORRALEJOS           Cluster 4 / Mid-high Income / Low Pop / Mid-low Age</div>')[0];
+                popup_0071cac0429b45998424dff53e536996.setContent(html_490023bfdb694de8b09d223141842e1b);
+            
+
+            circle_marker_dcb7923f7ddf4400ae36829674aa4cd0.bindPopup(popup_0071cac0429b45998424dff53e536996);
+
+            
+        
+    
+            var circle_marker_9063acaf06f5495f8d427ae039cb6b4a = L.circleMarker(
+                [40.4143476,-3.6985251827738512],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_639db0444d7a4e769891632f98c125d4 = L.popup({maxWidth: '300'});
+
+            
+                var html_38f77445886844ddb3769609114aa6e4 = $('<div id="html_38f77445886844ddb3769609114aa6e4" style="width: 100.0%; height: 100.0%;">CORTES               Cluster 1 / Mid Income / Low Pop / Mid-high age</div>')[0];
+                popup_639db0444d7a4e769891632f98c125d4.setContent(html_38f77445886844ddb3769609114aa6e4);
+            
+
+            circle_marker_9063acaf06f5495f8d427ae039cb6b4a.bindPopup(popup_639db0444d7a4e769891632f98c125d4);
+
+            
+        
+    
+            var circle_marker_9056765fb1e24b37b172af74e09cc6ef = L.circleMarker(
+                [40.47538345,-3.669831997592169],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_1c48dbdf7ec940978fcd414472fe618a = L.popup({maxWidth: '300'});
+
+            
+                var html_1df8a08e16d14d8bbefe0926b4af8e72 = $('<div id="html_1df8a08e16d14d8bbefe0926b4af8e72" style="width: 100.0%; height: 100.0%;">COSTILLARES          Cluster 1 / Mid-high Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_1c48dbdf7ec940978fcd414472fe618a.setContent(html_1df8a08e16d14d8bbefe0926b4af8e72);
+            
+
+            circle_marker_9056765fb1e24b37b172af74e09cc6ef.bindPopup(popup_1c48dbdf7ec940978fcd414472fe618a);
+
+            
+        
+    
+            var circle_marker_e2e29f3f8e2941788d626331a7bb345f = L.circleMarker(
+                [40.45186505,-3.6969787599696],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_0e799e8759214448a9973c4b010a6288 = L.popup({maxWidth: '300'});
+
+            
+                var html_e1c860bdf5434c2db140302567dc2792 = $('<div id="html_e1c860bdf5434c2db140302567dc2792" style="width: 100.0%; height: 100.0%;">CUATRO CAMINOS       Cluster 1 / Mid Income / Mid Pop / High Age</div>')[0];
+                popup_0e799e8759214448a9973c4b010a6288.setContent(html_e1c860bdf5434c2db140302567dc2792);
+            
+
+            circle_marker_e2e29f3f8e2941788d626331a7bb345f.bindPopup(popup_0e799e8759214448a9973c4b010a6288);
+
+            
+        
+    
+            var circle_marker_027ce844bc7548cd8819ff9e013bdc7d = L.circleMarker(
+                [40.377581400000004,-3.7924565],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_d462c4209ed54a5ba4b2ce1df99d1dfa = L.popup({maxWidth: '300'});
+
+            
+                var html_43778492fe3f4da2bf51524525a5b729 = $('<div id="html_43778492fe3f4da2bf51524525a5b729" style="width: 100.0%; height: 100.0%;">CUATRO VIENTOS       Cluster 3 / Mid-low Income / Low Pop / Mid-low Age</div>')[0];
+                popup_d462c4209ed54a5ba4b2ce1df99d1dfa.setContent(html_43778492fe3f4da2bf51524525a5b729);
+            
+
+            circle_marker_027ce844bc7548cd8819ff9e013bdc7d.bindPopup(popup_d462c4209ed54a5ba4b2ce1df99d1dfa);
+
+            
+        
+    
+            var circle_marker_1b53b59b849842dda1501f2809f7df74 = L.circleMarker(
+                [40.39729215,-3.6894948496947286],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_c44ca9beecc14533b5eadf40d435ff59 = L.popup({maxWidth: '300'});
+
+            
+                var html_1f32781f7d0645a79c0c6356eb64b3fa = $('<div id="html_1f32781f7d0645a79c0c6356eb64b3fa" style="width: 100.0%; height: 100.0%;">DELICIAS             Cluster 3 / Mid Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_c44ca9beecc14533b5eadf40d435ff59.setContent(html_1f32781f7d0645a79c0c6356eb64b3fa);
+            
+
+            circle_marker_1b53b59b849842dda1501f2809f7df74.bindPopup(popup_c44ca9beecc14533b5eadf40d435ff59);
+
+            
+        
+    
+            var circle_marker_59f2f933660844459baaf8d7cae5b4f8 = L.circleMarker(
+                [40.392880100000006,-3.5697562000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_2c73dcdfa6b5449087625f2b31ba9488 = L.popup({maxWidth: '300'});
+
+            
+                var html_911158b4611c491ca62b033099050f25 = $('<div id="html_911158b4611c491ca62b033099050f25" style="width: 100.0%; height: 100.0%;">EL CAÑAVERAL Cluster 0 / Low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_2c73dcdfa6b5449087625f2b31ba9488.setContent(html_911158b4611c491ca62b033099050f25);
+            
+
+            circle_marker_59f2f933660844459baaf8d7cae5b4f8.bindPopup(popup_2c73dcdfa6b5449087625f2b31ba9488);
+
+            
+        
+    
+            var circle_marker_3ebebff17bfa48aca89e9231475c783f = L.circleMarker(
+                [40.557883000000004,-3.7140134],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_5be18ac769814804b02fdb16e4df2e66 = L.popup({maxWidth: '300'});
+
+            
+                var html_499193d52ae34144bb23e11ca0b62728 = $('<div id="html_499193d52ae34144bb23e11ca0b62728" style="width: 100.0%; height: 100.0%;">EL GOLOSO            Cluster 1 / Mid Income / Mid-low Pop / Low Age</div>')[0];
+                popup_5be18ac769814804b02fdb16e4df2e66.setContent(html_499193d52ae34144bb23e11ca0b62728);
+            
+
+            circle_marker_3ebebff17bfa48aca89e9231475c783f.bindPopup(popup_5be18ac769814804b02fdb16e4df2e66);
+
+            
+        
+    
+            var circle_marker_1740110b92094f22a8f7ddb07e5d9843 = L.circleMarker(
+                [40.520553799999995,-3.7780737999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_1448d89d63434074b8118d1ddb71d7d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_a099239294cb447592fe189d83ba2a25 = $('<div id="html_a099239294cb447592fe189d83ba2a25" style="width: 100.0%; height: 100.0%;">EL PARDO             Cluster 3 / Mid Income / Low Pop / High Age</div>')[0];
+                popup_1448d89d63434074b8118d1ddb71d7d5.setContent(html_a099239294cb447592fe189d83ba2a25);
+            
+
+            circle_marker_1740110b92094f22a8f7ddb07e5d9843.bindPopup(popup_1448d89d63434074b8118d1ddb71d7d5);
+
+            
+        
+    
+            var circle_marker_fa83b0a5763345ecbe53974a069dd0cd = L.circleMarker(
+                [40.4771334,-3.7089157],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_63c3bdfafdf0493eb596ad1c4044c818 = L.popup({maxWidth: '300'});
+
+            
+                var html_740a8e1e5fec4abebdd36292fde132fb = $('<div id="html_740a8e1e5fec4abebdd36292fde132fb" style="width: 100.0%; height: 100.0%;">EL PILAR             Cluster 2 / Mid-low Income / Mid-high Pop / High Age</div>')[0];
+                popup_63c3bdfafdf0493eb596ad1c4044c818.setContent(html_740a8e1e5fec4abebdd36292fde132fb);
+            
+
+            circle_marker_fa83b0a5763345ecbe53974a069dd0cd.bindPopup(popup_63c3bdfafdf0493eb596ad1c4044c818);
+
+            
+        
+    
+            var circle_marker_f3b0732d9fa84eb6960298f681830978 = L.circleMarker(
+                [40.468442,-3.8176959796878682],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_cb287a4a8cf24fd1bef8cc7875b10902 = L.popup({maxWidth: '300'});
+
+            
+                var html_4be40117ab394cf980eb26b46572187d = $('<div id="html_4be40117ab394cf980eb26b46572187d" style="width: 100.0%; height: 100.0%;">EL PLANTIO           Cluster 4 / High Income / Low Pop / Mid Age</div>')[0];
+                popup_cb287a4a8cf24fd1bef8cc7875b10902.setContent(html_4be40117ab394cf980eb26b46572187d);
+            
+
+            circle_marker_f3b0732d9fa84eb6960298f681830978.bindPopup(popup_cb287a4a8cf24fd1bef8cc7875b10902);
+
+            
+        
+    
+            var circle_marker_c2c2d5ad7b0c450b8ed8cf980ec8069c = L.circleMarker(
+                [40.4441255,-3.6279872800816175],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_a826249f95254592bc8e000ee888aaf6 = L.popup({maxWidth: '300'});
+
+            
+                var html_37e9f475b45649839bf3527b7661e448 = $('<div id="html_37e9f475b45649839bf3527b7661e448" style="width: 100.0%; height: 100.0%;">EL SALVADOR          Cluster 1 / Mid-high Income / Low Pop / Mid-high age</div>')[0];
+                popup_a826249f95254592bc8e000ee888aaf6.setContent(html_37e9f475b45649839bf3527b7661e448);
+            
+
+            circle_marker_c2c2d5ad7b0c450b8ed8cf980ec8069c.bindPopup(popup_a826249f95254592bc8e000ee888aaf6);
+
+            
+        
+    
+            var circle_marker_a9ec38b924cc48728e04dff0924a8408 = L.circleMarker(
+                [40.44362125,-3.6849885473603066],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_de545bcfa011447b9384fa014ed980e2 = L.popup({maxWidth: '300'});
+
+            
+                var html_8a15552c1e9a4885b518ae1b7a411a45 = $('<div id="html_8a15552c1e9a4885b518ae1b7a411a45" style="width: 100.0%; height: 100.0%;">EL VISO              Cluster 4 / High Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_de545bcfa011447b9384fa014ed980e2.setContent(html_8a15552c1e9a4885b518ae1b7a411a45);
+            
+
+            circle_marker_a9ec38b924cc48728e04dff0924a8408.bindPopup(popup_de545bcfa011447b9384fa014ed980e2);
+
+            
+        
+    
+            var circle_marker_579d9dc8d9ec40beae5d3a2e51645183 = L.circleMarker(
+                [40.40968055,-3.701644426413222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_1327695e0d374244aa4347e13bc1879c = L.popup({maxWidth: '300'});
+
+            
+                var html_d0fff947dd6d4002837ba5903d874e7a = $('<div id="html_d0fff947dd6d4002837ba5903d874e7a" style="width: 100.0%; height: 100.0%;">EMBAJADORES          Cluster 2 / Mid-low Income / Mid Pop / Mid-high age</div>')[0];
+                popup_1327695e0d374244aa4347e13bc1879c.setContent(html_d0fff947dd6d4002837ba5903d874e7a);
+            
+
+            circle_marker_579d9dc8d9ec40beae5d3a2e51645183.bindPopup(popup_1327695e0d374244aa4347e13bc1879c);
+
+            
+        
+    
+            var circle_marker_f55ef437cb3b492cb5ffc2cfe8617e65 = L.circleMarker(
+                [40.36497555,-3.5999047239009494],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_0b9683412dca4f1fac4ac24c2faba4e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_2daef2f38d4d43de8d08ee771f219177 = $('<div id="html_2daef2f38d4d43de8d08ee771f219177" style="width: 100.0%; height: 100.0%;">ENSANCHE DE VALLECAS Cluster 3 / Mid-low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_0b9683412dca4f1fac4ac24c2faba4e3.setContent(html_2daef2f38d4d43de8d08ee771f219177);
+            
+
+            circle_marker_f55ef437cb3b492cb5ffc2cfe8617e65.bindPopup(popup_0b9683412dca4f1fac4ac24c2faba4e3);
+
+            
+        
+    
+            var circle_marker_0a160352dc944c3798090250101f4f97 = L.circleMarker(
+                [40.380284,-3.6691818],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_aaefa77c6e9f40f8a5ea1b30bf29cbc1 = L.popup({maxWidth: '300'});
+
+            
+                var html_ce80ea642f844ea690f11800dc08e289 = $('<div id="html_ce80ea642f844ea690f11800dc08e289" style="width: 100.0%; height: 100.0%;">ENTREVIAS            Cluster 0 / Low Income / Mid Pop / Mid-high age</div>')[0];
+                popup_aaefa77c6e9f40f8a5ea1b30bf29cbc1.setContent(html_ce80ea642f844ea690f11800dc08e289);
+            
+
+            circle_marker_0a160352dc944c3798090250101f4f97.bindPopup(popup_aaefa77c6e9f40f8a5ea1b30bf29cbc1);
+
+            
+        
+    
+            var circle_marker_f5a09553bed04fc3ae365d7fc7948213 = L.circleMarker(
+                [40.41441435,-3.6652178934436255],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_467e4b9f284b45918c24746069623ec3 = L.popup({maxWidth: '300'});
+
+            
+                var html_036348c829c14b4a98a45640ba9e8aff = $('<div id="html_036348c829c14b4a98a45640ba9e8aff" style="width: 100.0%; height: 100.0%;">ESTRELLA             Cluster 1 / Mid-high Income / Mid-low Pop / High Age</div>')[0];
+                popup_467e4b9f284b45918c24746069623ec3.setContent(html_036348c829c14b4a98a45640ba9e8aff);
+            
+
+            circle_marker_f5a09553bed04fc3ae365d7fc7948213.bindPopup(popup_467e4b9f284b45918c24746069623ec3);
+
+            
+        
+    
+            var circle_marker_1d0137d779904957aea35e4a8fedb01b = L.circleMarker(
+                [40.4017365,-3.6443305940009214],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_ff6664001ac74a7ab9aba464da59723f = L.popup({maxWidth: '300'});
+
+            
+                var html_d446a2adedd44d35a9bfc40d32372757 = $('<div id="html_d446a2adedd44d35a9bfc40d32372757" style="width: 100.0%; height: 100.0%;">FONTARRON            Cluster 0 / Mid-low Income / Mid-low Pop / High Age</div>')[0];
+                popup_ff6664001ac74a7ab9aba464da59723f.setContent(html_d446a2adedd44d35a9bfc40d32372757);
+            
+
+            circle_marker_1d0137d779904957aea35e4a8fedb01b.bindPopup(popup_ff6664001ac74a7ab9aba464da59723f);
+
+            
+        
+    
+            var circle_marker_be398ef890cb45bc8eb39a8fd3fadb9e = L.circleMarker(
+                [40.42513105000001,-3.6642375969839596],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_5939a83e6bc54042bf8a4e2cdd18a221 = L.popup({maxWidth: '300'});
+
+            
+                var html_1eea9c42127e48789ce269bbbda83705 = $('<div id="html_1eea9c42127e48789ce269bbbda83705" style="width: 100.0%; height: 100.0%;">FUENTE DEL BERRO     Cluster 1 / Mid Income / Mid-low Pop / High Age</div>')[0];
+                popup_5939a83e6bc54042bf8a4e2cdd18a221.setContent(html_1eea9c42127e48789ce269bbbda83705);
+            
+
+            circle_marker_be398ef890cb45bc8eb39a8fd3fadb9e.bindPopup(popup_5939a83e6bc54042bf8a4e2cdd18a221);
+
+            
+        
+    
+            var circle_marker_12668a4ab62a4bfd8ad5d73731557d3a = L.circleMarker(
+                [40.48081985,-3.739435538337466],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_dd20d60d1e284fd3af08a7d3c9cdb105 = L.popup({maxWidth: '300'});
+
+            
+                var html_395c9c05b97e47a288ee3062a871c027 = $('<div id="html_395c9c05b97e47a288ee3062a871c027" style="width: 100.0%; height: 100.0%;">FUENTELARREINA       Cluster 4 / High Income / Low Pop / Mid-high age</div>')[0];
+                popup_dd20d60d1e284fd3af08a7d3c9cdb105.setContent(html_395c9c05b97e47a288ee3062a871c027);
+            
+
+            circle_marker_12668a4ab62a4bfd8ad5d73731557d3a.bindPopup(popup_dd20d60d1e284fd3af08a7d3c9cdb105);
+
+            
+        
+    
+            var circle_marker_7230dc8e481b410a8496382494425f84 = L.circleMarker(
+                [40.43467955,-3.7149027097918568],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_d4f41f41ad684d078307fc764d3723b1 = L.popup({maxWidth: '300'});
+
+            
+                var html_343ed0d72b504758a36e88caf6d6c024 = $('<div id="html_343ed0d72b504758a36e88caf6d6c024" style="width: 100.0%; height: 100.0%;">GAZTAMBIDE           Cluster 1 / Mid-high Income / Mid-low Pop / High Age</div>')[0];
+                popup_d4f41f41ad684d078307fc764d3723b1.setContent(html_343ed0d72b504758a36e88caf6d6c024);
+            
+
+            circle_marker_7230dc8e481b410a8496382494425f84.bindPopup(popup_d4f41f41ad684d078307fc764d3723b1);
+
+            
+        
+    
+            var circle_marker_5f69a5159c4d455eacf32dedb5d4d7a8 = L.circleMarker(
+                [40.4247627,-3.6759535000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_469a130f804b49e4bacfce51d02eecb7 = L.popup({maxWidth: '300'});
+
+            
+                var html_3cbba9c470e648e081a1b12869f5d641 = $('<div id="html_3cbba9c470e648e081a1b12869f5d641" style="width: 100.0%; height: 100.0%;">GOYA                 Cluster 1 / Mid-high Income / Mid-low Pop / High Age</div>')[0];
+                popup_469a130f804b49e4bacfce51d02eecb7.setContent(html_3cbba9c470e648e081a1b12869f5d641);
+            
+
+            circle_marker_5f69a5159c4d455eacf32dedb5d4d7a8.bindPopup(popup_469a130f804b49e4bacfce51d02eecb7);
+
+            
+        
+    
+            var circle_marker_389743dccb514f92ac67065a77e1334d = L.circleMarker(
+                [40.4362387,-3.667969551605893],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_67d55aab400b409e8eadf398f7845c4d = L.popup({maxWidth: '300'});
+
+            
+                var html_f3fdd3c53a77470a80787a645ebbbc45 = $('<div id="html_f3fdd3c53a77470a80787a645ebbbc45" style="width: 100.0%; height: 100.0%;">GUINDALERA           Cluster 1 / Mid Income / Mid Pop / High Age</div>')[0];
+                popup_67d55aab400b409e8eadf398f7845c4d.setContent(html_f3fdd3c53a77470a80787a645ebbbc45);
+            
+
+            circle_marker_389743dccb514f92ac67065a77e1334d.bindPopup(popup_67d55aab400b409e8eadf398f7845c4d);
+
+            
+        
+    
+            var circle_marker_51d92c89a1c444219316a84af7b58b59 = L.circleMarker(
+                [40.431322200000004,-3.616768868295294],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_8c9d6e87fdeb4e32a6a1cfd31323f733 = L.popup({maxWidth: '300'});
+
+            
+                var html_7947de2c795d466892f125b228cb1325 = $('<div id="html_7947de2c795d466892f125b228cb1325" style="width: 100.0%; height: 100.0%;">HELLIN               Cluster 0 / Low Income / Low Pop / High Age</div>')[0];
+                popup_8c9d6e87fdeb4e32a6a1cfd31323f733.setContent(html_7947de2c795d466892f125b228cb1325);
+            
+
+            circle_marker_51d92c89a1c444219316a84af7b58b59.bindPopup(popup_8c9d6e87fdeb4e32a6a1cfd31323f733);
+
+            
+        
+    
+            var circle_marker_57945ac9132343e2ae49ef24a63504bd = L.circleMarker(
+                [40.4558141,-3.6769036299546025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_9181c972bdb54d518564a368cfc469f9 = L.popup({maxWidth: '300'});
+
+            
+                var html_19b59931b623477d9dae913eff3216a6 = $('<div id="html_19b59931b623477d9dae913eff3216a6" style="width: 100.0%; height: 100.0%;">HISPANOAMERICA       Cluster 1 / Mid-high Income / Mid Pop / High Age</div>')[0];
+                popup_9181c972bdb54d518564a368cfc469f9.setContent(html_19b59931b623477d9dae913eff3216a6);
+            
+
+            circle_marker_57945ac9132343e2ae49ef24a63504bd.bindPopup(popup_9181c972bdb54d518564a368cfc469f9);
+
+            
+        
+    
+            var circle_marker_86d06afdaadf41f5996ace14daf4f159 = L.circleMarker(
+                [40.4081864,-3.6267762],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_40840ccc18a74ceb95e5f72d0d8013ea = L.popup({maxWidth: '300'});
+
+            
+                var html_08017e1256f044f2be276d8aaf4f09b8 = $('<div id="html_08017e1256f044f2be276d8aaf4f09b8" style="width: 100.0%; height: 100.0%;">HORCAJO              Cluster 3 / Mid Income / Low Pop / Mid-low Age</div>')[0];
+                popup_40840ccc18a74ceb95e5f72d0d8013ea.setContent(html_08017e1256f044f2be276d8aaf4f09b8);
+            
+
+            circle_marker_86d06afdaadf41f5996ace14daf4f159.bindPopup(popup_40840ccc18a74ceb95e5f72d0d8013ea);
+
+            
+        
+    
+            var circle_marker_81713162cfb34eefb65c8cd99a5d0f19 = L.circleMarker(
+                [40.4191415,-3.67412097396766],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_05ef4cbc68024596adb0af6b359e9890 = L.popup({maxWidth: '300'});
+
+            
+                var html_d171b5c196e141eaabeaf239e6c89872 = $('<div id="html_d171b5c196e141eaabeaf239e6c89872" style="width: 100.0%; height: 100.0%;">IBIZA                Cluster 1 / Mid-high Income / Mid-low Pop / High Age</div>')[0];
+                popup_05ef4cbc68024596adb0af6b359e9890.setContent(html_d171b5c196e141eaabeaf239e6c89872);
+            
+
+            circle_marker_81713162cfb34eefb65c8cd99a5d0f19.bindPopup(popup_05ef4cbc68024596adb0af6b359e9890);
+
+            
+        
+    
+            var circle_marker_e0f22da0a8a943ad9fbd531e9ae1d4e1 = L.circleMarker(
+                [40.406928799999996,-3.71732105261791],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_430b3b0d3aae43eda75652ec5cb16c0c = L.popup({maxWidth: '300'});
+
+            
+                var html_d2b17abe47cc49fa85c0f2bd78585df2 = $('<div id="html_d2b17abe47cc49fa85c0f2bd78585df2" style="width: 100.0%; height: 100.0%;">IMPERIAL             Cluster 3 / Mid Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_430b3b0d3aae43eda75652ec5cb16c0c.setContent(html_d2b17abe47cc49fa85c0f2bd78585df2);
+            
+
+            circle_marker_e0f22da0a8a943ad9fbd531e9ae1d4e1.bindPopup(popup_430b3b0d3aae43eda75652ec5cb16c0c);
+
+            
+        
+    
+            var circle_marker_48080ada3f174acd926a9db59806b642 = L.circleMarker(
+                [40.42395689999999,-3.6957473208550464],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_f6b0994cc85b42609aa6d406decff288 = L.popup({maxWidth: '300'});
+
+            
+                var html_5b54d8378db74ce68d5027deca8773ea = $('<div id="html_5b54d8378db74ce68d5027deca8773ea" style="width: 100.0%; height: 100.0%;">JUSTICIA             Cluster 1 / Mid-high Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_f6b0994cc85b42609aa6d406decff288.setContent(html_5b54d8378db74ce68d5027deca8773ea);
+            
+
+            circle_marker_48080ada3f174acd926a9db59806b642.bindPopup(popup_f6b0994cc85b42609aa6d406decff288);
+
+            
+        
+    
+            var circle_marker_e41b1f43cd8b478a820a27024dffed38 = L.circleMarker(
+                [40.48212215,-3.6952112678959845],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_a5e87dceb9924c879bf82a82abfd5b91 = L.popup({maxWidth: '300'});
+
+            
+                var html_c844daf8b86245a3b98b78e8f67a5a07 = $('<div id="html_c844daf8b86245a3b98b78e8f67a5a07" style="width: 100.0%; height: 100.0%;">LA PAZ               Cluster 1 / Mid-high Income / Mid Pop / High Age</div>')[0];
+                popup_a5e87dceb9924c879bf82a82abfd5b91.setContent(html_c844daf8b86245a3b98b78e8f67a5a07);
+            
+
+            circle_marker_e41b1f43cd8b478a820a27024dffed38.bindPopup(popup_a5e87dceb9924c879bf82a82abfd5b91);
+
+            
+        
+    
+            var circle_marker_465c042f2de54b648c2c03f9b1451a86 = L.circleMarker(
+                [40.3814589,-3.7803772000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_75ddef8ed1854bc08be81c4f285761ca = L.popup({maxWidth: '300'});
+
+            
+                var html_60c9ef96f12941aab447af177ba20273 = $('<div id="html_60c9ef96f12941aab447af177ba20273" style="width: 100.0%; height: 100.0%;">LAS AGUILAS          Cluster 2 / Mid-low Income / Mid-high Pop / High Age</div>')[0];
+                popup_75ddef8ed1854bc08be81c4f285761ca.setContent(html_60c9ef96f12941aab447af177ba20273);
+            
+
+            circle_marker_465c042f2de54b648c2c03f9b1451a86.bindPopup(popup_75ddef8ed1854bc08be81c4f285761ca);
+
+            
+        
+    
+            var circle_marker_eb57d4e4905c4dc19938ecfd1d04f612 = L.circleMarker(
+                [40.3911717,-3.6951902000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_8610280457d2411aa31d97ccb62b7862 = L.popup({maxWidth: '300'});
+
+            
+                var html_7de88eee0a4842529cbafd7ee367b9d7 = $('<div id="html_7de88eee0a4842529cbafd7ee367b9d7" style="width: 100.0%; height: 100.0%;">LEGAZPI              Cluster 1 / Mid Income / Mid-low Pop / Mid-low Age</div>')[0];
+                popup_8610280457d2411aa31d97ccb62b7862.setContent(html_7de88eee0a4842529cbafd7ee367b9d7);
+            
+
+            circle_marker_eb57d4e4905c4dc19938ecfd1d04f612.bindPopup(popup_8610280457d2411aa31d97ccb62b7862);
+
+            
+        
+    
+            var circle_marker_8f98c09734d74ed7bcdf8e0587a6ce08 = L.circleMarker(
+                [40.4293973,-3.6753988],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_3fcaa3ea0e384998b3bf6be11a85fb18 = L.popup({maxWidth: '300'});
+
+            
+                var html_37d9d93990ef4a428170af5fa6bbb813 = $('<div id="html_37d9d93990ef4a428170af5fa6bbb813" style="width: 100.0%; height: 100.0%;">LISTA                Cluster 1 / Mid-high Income / Mid-low Pop / High Age</div>')[0];
+                popup_3fcaa3ea0e384998b3bf6be11a85fb18.setContent(html_37d9d93990ef4a428170af5fa6bbb813);
+            
+
+            circle_marker_8f98c09734d74ed7bcdf8e0587a6ce08.bindPopup(popup_3fcaa3ea0e384998b3bf6be11a85fb18);
+
+            
+        
+    
+            var circle_marker_9800c80e24c548e5b5af582e9b34d178 = L.circleMarker(
+                [40.3551089,-3.7001047141537535],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_22e9eb1e595b4d058904be7a7348ae6e = L.popup({maxWidth: '300'});
+
+            
+                var html_5c2147dd41f84a3993ed67828941e5d1 = $('<div id="html_5c2147dd41f84a3993ed67828941e5d1" style="width: 100.0%; height: 100.0%;">LOS ANGELES          Cluster 0 / Mid-low Income / Mid Pop / High Age</div>')[0];
+                popup_22e9eb1e595b4d058904be7a7348ae6e.setContent(html_5c2147dd41f84a3993ed67828941e5d1);
+            
+
+            circle_marker_9800c80e24c548e5b5af582e9b34d178.bindPopup(popup_22e9eb1e595b4d058904be7a7348ae6e);
+
+            
+        
+    
+            var circle_marker_b04cf209c7684b019dea832085d4fc62 = L.circleMarker(
+                [40.406944,-3.7263889999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_5657840616fb471aacf7bb1a70d996c3 = L.popup({maxWidth: '300'});
+
+            
+                var html_684acc755d934e0080f8b06490ee201d = $('<div id="html_684acc755d934e0080f8b06490ee201d" style="width: 100.0%; height: 100.0%;">LOS CARMENES         Cluster 0 / Low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_5657840616fb471aacf7bb1a70d996c3.setContent(html_684acc755d934e0080f8b06490ee201d);
+            
+
+            circle_marker_b04cf209c7684b019dea832085d4fc62.bindPopup(popup_5657840616fb471aacf7bb1a70d996c3);
+
+            
+        
+    
+            var circle_marker_8be50e9fd0af49c1aa915524a795eb35 = L.circleMarker(
+                [40.418611,-3.6903516000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_9a8385177f9445b2a356aef32b37a1a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_121a1b6d5b4749308e44cf432f3062af = $('<div id="html_121a1b6d5b4749308e44cf432f3062af" style="width: 100.0%; height: 100.0%;">LOS JERONIMOS        Cluster 4 / High Income / Low Pop / High Age</div>')[0];
+                popup_9a8385177f9445b2a356aef32b37a1a3.setContent(html_121a1b6d5b4749308e44cf432f3062af);
+            
+
+            circle_marker_8be50e9fd0af49c1aa915524a795eb35.bindPopup(popup_9a8385177f9445b2a356aef32b37a1a3);
+
+            
+        
+    
+            var circle_marker_e94190ddfd204c9abe97721e2341c147 = L.circleMarker(
+                [40.3558406,-3.6883988896386386],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_9a17be49b81d46cdb99ee96132fe5e7d = L.popup({maxWidth: '300'});
+
+            
+                var html_98f0d323778044a190e38a72ba4f814b = $('<div id="html_98f0d323778044a190e38a72ba4f814b" style="width: 100.0%; height: 100.0%;">LOS ROSALES          Cluster 0 / Mid-low Income / Mid Pop / Mid-high age</div>')[0];
+                popup_9a17be49b81d46cdb99ee96132fe5e7d.setContent(html_98f0d323778044a190e38a72ba4f814b);
+            
+
+            circle_marker_e94190ddfd204c9abe97721e2341c147.bindPopup(popup_9a17be49b81d46cdb99ee96132fe5e7d);
+
+            
+        
+    
+            var circle_marker_b4648612070444b69e1e9df3a6bb4c6a = L.circleMarker(
+                [40.4048009,-3.7452693],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_e706f7f88e554768ba8cf0719d9ee22f = L.popup({maxWidth: '300'});
+
+            
+                var html_892d596b31fc4c588a040d6e5f149e55 = $('<div id="html_892d596b31fc4c588a040d6e5f149e55" style="width: 100.0%; height: 100.0%;">LUCERO               Cluster 0 / Mid-low Income / Mid Pop / High Age</div>')[0];
+                popup_e706f7f88e554768ba8cf0719d9ee22f.setContent(html_892d596b31fc4c588a040d6e5f149e55);
+            
+
+            circle_marker_b4648612070444b69e1e9df3a6bb4c6a.bindPopup(popup_e706f7f88e554768ba8cf0719d9ee22f);
+
+            
+        
+    
+            var circle_marker_8caa5540a9794aaaa310fcb3f759a611 = L.circleMarker(
+                [40.40990235,-3.6413442584738065],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_ae0b3775ff6f4853b96c29bf0c58c467 = L.popup({maxWidth: '300'});
+
+            
+                var html_fb5d8bc42009429ab6b3ba9070de5002 = $('<div id="html_fb5d8bc42009429ab6b3ba9070de5002" style="width: 100.0%; height: 100.0%;">MARROQUINA           Cluster 3 / Mid Income / Mid-low Pop / High Age</div>')[0];
+                popup_ae0b3775ff6f4853b96c29bf0c58c467.setContent(html_fb5d8bc42009429ab6b3ba9070de5002);
+            
+
+            circle_marker_8caa5540a9794aaaa310fcb3f759a611.bindPopup(popup_ae0b3775ff6f4853b96c29bf0c58c467);
+
+            
+        
+    
+            var circle_marker_5e0820c5bd87407daf4b65dfef775129 = L.circleMarker(
+                [40.4120952,-3.657005336118567],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_b71b1551dff64bbe966116f8db57cb5b = L.popup({maxWidth: '300'});
+
+            
+                var html_f3d707e32f99493dbe3b843d0f22f7a7 = $('<div id="html_f3d707e32f99493dbe3b843d0f22f7a7" style="width: 100.0%; height: 100.0%;">MEDIA LEGUA          Cluster 3 / Mid-low Income / Mid-low Pop / High Age</div>')[0];
+                popup_b71b1551dff64bbe966116f8db57cb5b.setContent(html_f3d707e32f99493dbe3b843d0f22f7a7);
+            
+
+            circle_marker_5e0820c5bd87407daf4b65dfef775129.bindPopup(popup_b71b1551dff64bbe966116f8db57cb5b);
+
+            
+        
+    
+            var circle_marker_a1a8853e2bec4d8099ba147e68252339 = L.circleMarker(
+                [40.4906361,-3.7161379],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_0e7915bbd3094bb18270638dddd6842d = L.popup({maxWidth: '300'});
+
+            
+                var html_d387086662b2468e8183e624da6c13ed = $('<div id="html_d387086662b2468e8183e624da6c13ed" style="width: 100.0%; height: 100.0%;">MIRASIERRA           Cluster 1 / Mid-high Income / Mid Pop / Mid Age</div>')[0];
+                popup_0e7915bbd3094bb18270638dddd6842d.setContent(html_d387086662b2468e8183e624da6c13ed);
+            
+
+            circle_marker_a1a8853e2bec4d8099ba147e68252339.bindPopup(popup_0e7915bbd3094bb18270638dddd6842d);
+
+            
+        
+    
+            var circle_marker_968d685f92f04b98ae67386c7a9c1d0a = L.circleMarker(
+                [40.390015600000005,-3.705424335977733],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_9e64b2fbea5442059e27fffd748a62c9 = L.popup({maxWidth: '300'});
+
+            
+                var html_b40793704a4543a48c93bf83af75d829 = $('<div id="html_b40793704a4543a48c93bf83af75d829" style="width: 100.0%; height: 100.0%;">MOSCARDO             Cluster 0 / Mid-low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_9e64b2fbea5442059e27fffd748a62c9.setContent(html_b40793704a4543a48c93bf83af75d829);
+            
+
+            circle_marker_968d685f92f04b98ae67386c7a9c1d0a.bindPopup(popup_9e64b2fbea5442059e27fffd748a62c9);
+
+            
+        
+    
+            var circle_marker_35fcb0e1aaa445b6b82dfb5ed9034d66 = L.circleMarker(
+                [40.4134414,-3.673336790898341],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_6dfb669bcef54d24b8179bcf5a33752a = L.popup({maxWidth: '300'});
+
+            
+                var html_0f0947f7a3874602a1105d16d5c85d75 = $('<div id="html_0f0947f7a3874602a1105d16d5c85d75" style="width: 100.0%; height: 100.0%;">NIÑO JESUS           Cluster 4 / Mid-high Income / Mid-low Pop / High Age</div>')[0];
+                popup_6dfb669bcef54d24b8179bcf5a33752a.setContent(html_0f0947f7a3874602a1105d16d5c85d75);
+            
+
+            circle_marker_35fcb0e1aaa445b6b82dfb5ed9034d66.bindPopup(popup_6dfb669bcef54d24b8179bcf5a33752a);
+
+            
+        
+    
+            var circle_marker_8dc1e88086214b4f9b803103de451fcf = L.circleMarker(
+                [40.46295245,-3.678011548232455],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_5fc7c7d5046c48e6ae551150331b2173 = L.popup({maxWidth: '300'});
+
+            
+                var html_14bdacc4d8564fa7a99126a077e5f9ec = $('<div id="html_14bdacc4d8564fa7a99126a077e5f9ec" style="width: 100.0%; height: 100.0%;">NUEVA ESPAÑA         Cluster 4 / High Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_5fc7c7d5046c48e6ae551150331b2173.setContent(html_14bdacc4d8564fa7a99126a077e5f9ec);
+            
+
+            circle_marker_8dc1e88086214b4f9b803103de451fcf.bindPopup(popup_5fc7c7d5046c48e6ae551150331b2173);
+
+            
+        
+    
+            var circle_marker_ae07c395cad14443a511d8d259c538f0 = L.circleMarker(
+                [40.398746100000004,-3.6581186076151115],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_f955acb944564396a3b98185c957a0f0 = L.popup({maxWidth: '300'});
+
+            
+                var html_e27db96f47dd4068aa0ebfcb4dcf0a79 = $('<div id="html_e27db96f47dd4068aa0ebfcb4dcf0a79" style="width: 100.0%; height: 100.0%;">NUMANCIA             Cluster 2 / Low Income / Mid-high Pop / Mid-high age</div>')[0];
+                popup_f955acb944564396a3b98185c957a0f0.setContent(html_e27db96f47dd4068aa0ebfcb4dcf0a79);
+            
+
+            circle_marker_ae07c395cad14443a511d8d259c538f0.bindPopup(popup_f955acb944564396a3b98185c957a0f0);
+
+            
+        
+    
+            var circle_marker_8f9e88bab1494939a69e309cd2a417d5 = L.circleMarker(
+                [40.3869032,-3.7231858],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_6eb64080ebe84f73be51c4de9a4c7387 = L.popup({maxWidth: '300'});
+
+            
+                var html_c3578d524672400686c9dc1e61167326 = $('<div id="html_c3578d524672400686c9dc1e61167326" style="width: 100.0%; height: 100.0%;">OPAÑEL               Cluster 0 / Mid-low Income / Mid Pop / Mid-high age</div>')[0];
+                popup_6eb64080ebe84f73be51c4de9a4c7387.setContent(html_c3578d524672400686c9dc1e61167326);
+            
+
+            circle_marker_8f9e88bab1494939a69e309cd2a417d5.bindPopup(popup_6eb64080ebe84f73be51c4de9a4c7387);
+
+            
+        
+    
+            var circle_marker_dfef3b9865c746b39a5d918117a84c2e = L.circleMarker(
+                [40.36727875,-3.712509095606202],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_19d3a3516bd342e98aa0d32c97820d88 = L.popup({maxWidth: '300'});
+
+            
+                var html_b48855c9eaff44fea3521d6d371bcdb6 = $('<div id="html_b48855c9eaff44fea3521d6d371bcdb6" style="width: 100.0%; height: 100.0%;">ORCASITAS            Cluster 0 / Low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_19d3a3516bd342e98aa0d32c97820d88.setContent(html_b48855c9eaff44fea3521d6d371bcdb6);
+            
+
+            circle_marker_dfef3b9865c746b39a5d918117a84c2e.bindPopup(popup_19d3a3516bd342e98aa0d32c97820d88);
+
+            
+        
+    
+            var circle_marker_30e267b2b2fa4a99b3532692ba4ec13e = L.circleMarker(
+                [40.37415595,-3.6987650754429806],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_1c1a255686be4822aec8ee8d6d63004e = L.popup({maxWidth: '300'});
+
+            
+                var html_68ccb3ea54fb4e3d984844b13d0cc9fb = $('<div id="html_68ccb3ea54fb4e3d984844b13d0cc9fb" style="width: 100.0%; height: 100.0%;">ORCASUR              Cluster 0 / Low Income / Low Pop / Mid Age</div>')[0];
+                popup_1c1a255686be4822aec8ee8d6d63004e.setContent(html_68ccb3ea54fb4e3d984844b13d0cc9fb);
+            
+
+            circle_marker_30e267b2b2fa4a99b3532692ba4ec13e.bindPopup(popup_1c1a255686be4822aec8ee8d6d63004e);
+
+            
+        
+    
+            var circle_marker_51b7001cf6c74793b26813854f9b8168 = L.circleMarker(
+                [40.4013961,-3.6748832],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_5fa62bae0f7d4fe6b5b6d3d2e1957b15 = L.popup({maxWidth: '300'});
+
+            
+                var html_89b230f66d7848c190e66cfc9268647b = $('<div id="html_89b230f66d7848c190e66cfc9268647b" style="width: 100.0%; height: 100.0%;">PACIFICO             Cluster 3 / Mid Income / Mid Pop / High Age</div>')[0];
+                popup_5fa62bae0f7d4fe6b5b6d3d2e1957b15.setContent(html_89b230f66d7848c190e66cfc9268647b);
+            
+
+            circle_marker_51b7001cf6c74793b26813854f9b8168.bindPopup(popup_5fa62bae0f7d4fe6b5b6d3d2e1957b15);
+
+            
+        
+    
+            var circle_marker_1784d0b266b54332bc1b8d0a931dc7c1 = L.circleMarker(
+                [40.41512925,-3.715617998399092],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_d085c0ffb4144d5396f1a9757e23813e = L.popup({maxWidth: '300'});
+
+            
+                var html_2fa208598b604bcd939d0db8ceea946c = $('<div id="html_2fa208598b604bcd939d0db8ceea946c" style="width: 100.0%; height: 100.0%;">PALACIO              Cluster 1 / Mid Income / Mid-low Pop / High Age</div>')[0];
+                popup_d085c0ffb4144d5396f1a9757e23813e.setContent(html_2fa208598b604bcd939d0db8ceea946c);
+            
+
+            circle_marker_1784d0b266b54332bc1b8d0a931dc7c1.bindPopup(popup_d085c0ffb4144d5396f1a9757e23813e);
+
+            
+        
+    
+            var circle_marker_7ccfb0919d29470aa34c4e64325d0d43 = L.circleMarker(
+                [40.454216100000004,-3.615699579961719],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_44cb8aa4481e41c39293910f90beda23 = L.popup({maxWidth: '300'});
+
+            
+                var html_077a1d79379d4a2c97aaa89187ec6e3c = $('<div id="html_077a1d79379d4a2c97aaa89187ec6e3c" style="width: 100.0%; height: 100.0%;">PALOMAS              Cluster 4 / High Income / Low Pop / Mid Age</div>')[0];
+                popup_44cb8aa4481e41c39293910f90beda23.setContent(html_077a1d79379d4a2c97aaa89187ec6e3c);
+            
+
+            circle_marker_7ccfb0919d29470aa34c4e64325d0d43.bindPopup(popup_44cb8aa4481e41c39293910f90beda23);
+
+            
+        
+    
+            var circle_marker_378ea35ab6b64910b4a88f2b22bad1a6 = L.circleMarker(
+                [40.3851802,-3.6584870993071865],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_c681f65252a1432f8fa3ebac8593637c = L.popup({maxWidth: '300'});
+
+            
+                var html_227f95eac416434ca96bea4d7b055886 = $('<div id="html_227f95eac416434ca96bea4d7b055886" style="width: 100.0%; height: 100.0%;">PALOMERAS BAJAS      Cluster 2 / Mid-low Income / Mid Pop / Mid-high age</div>')[0];
+                popup_c681f65252a1432f8fa3ebac8593637c.setContent(html_227f95eac416434ca96bea4d7b055886);
+            
+
+            circle_marker_378ea35ab6b64910b4a88f2b22bad1a6.bindPopup(popup_c681f65252a1432f8fa3ebac8593637c);
+
+            
+        
+    
+            var circle_marker_b54d2621216d4955b8e586ae9fca3ffe = L.circleMarker(
+                [40.3871008,-3.634472804869207],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_85ee1dc6c5f3444a9c438e61373ee36a = L.popup({maxWidth: '300'});
+
+            
+                var html_f1e4fdac53da4c74be5677411f50a564 = $('<div id="html_f1e4fdac53da4c74be5677411f50a564" style="width: 100.0%; height: 100.0%;">PALOMERAS SURESTE    Cluster 2 / Mid-low Income / Mid Pop / Mid-high age</div>')[0];
+                popup_85ee1dc6c5f3444a9c438e61373ee36a.setContent(html_f1e4fdac53da4c74be5677411f50a564);
+            
+
+            circle_marker_b54d2621216d4955b8e586ae9fca3ffe.bindPopup(popup_85ee1dc6c5f3444a9c438e61373ee36a);
+
+            
+        
+    
+            var circle_marker_b64670de28584777a01893aebbca1b2c = L.circleMarker(
+                [40.40392685000001,-3.695561327957416],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_eec0554c53464b8e87950faa427df18a = L.popup({maxWidth: '300'});
+
+            
+                var html_676393b507b54739a128b6e42783b10a = $('<div id="html_676393b507b54739a128b6e42783b10a" style="width: 100.0%; height: 100.0%;">PALOS DE MOGUER      Cluster 3 / Mid Income / Mid-low Pop / High Age</div>')[0];
+                popup_eec0554c53464b8e87950faa427df18a.setContent(html_676393b507b54739a128b6e42783b10a);
+            
+
+            circle_marker_b64670de28584777a01893aebbca1b2c.bindPopup(popup_eec0554c53464b8e87950faa427df18a);
+
+            
+        
+    
+            var circle_marker_9f6896041d2544168fa6fbf026fb5302 = L.circleMarker(
+                [40.39855825,-3.6323219442893766],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_c1dd11606b534724bf8edaec97eb1e7d = L.popup({maxWidth: '300'});
+
+            
+                var html_898677d7ce2e42aa997e3eb3d0ac8592 = $('<div id="html_898677d7ce2e42aa997e3eb3d0ac8592" style="width: 100.0%; height: 100.0%;">PAVONES              Cluster 3 / Mid-low Income / Low Pop / High Age</div>')[0];
+                popup_c1dd11606b534724bf8edaec97eb1e7d.setContent(html_898677d7ce2e42aa997e3eb3d0ac8592);
+            
+
+            circle_marker_9f6896041d2544168fa6fbf026fb5302.bindPopup(popup_c1dd11606b534724bf8edaec97eb1e7d);
+
+            
+        
+    
+            var circle_marker_d5b744993878420ba4cb8b0386b3dd18 = L.circleMarker(
+                [40.47791255,-3.727678191861053],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_ed00a94868034210aa63605b82a7fa0d = L.popup({maxWidth: '300'});
+
+            
+                var html_692cd4344c2b44b4bb28050e1833a41f = $('<div id="html_692cd4344c2b44b4bb28050e1833a41f" style="width: 100.0%; height: 100.0%;">PEÑA GRANDE          Cluster 2 / Mid Income / Mid Pop / High Age</div>')[0];
+                popup_ed00a94868034210aa63605b82a7fa0d.setContent(html_692cd4344c2b44b4bb28050e1833a41f);
+            
+
+            circle_marker_d5b744993878420ba4cb8b0386b3dd18.bindPopup(popup_ed00a94868034210aa63605b82a7fa0d);
+
+            
+        
+    
+            var circle_marker_cb6ce23ae0a14126a1127878a74bd5db = L.circleMarker(
+                [40.4678284,-3.6486781],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_31327fddbfce464790bd70f7413aa5b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_53dfb52055394f828f2ff1f5f66a3ee5 = $('<div id="html_53dfb52055394f828f2ff1f5f66a3ee5" style="width: 100.0%; height: 100.0%;">PINAR DEL REY        Cluster 2 / Mid-low Income / Mid-high Pop / High Age</div>')[0];
+                popup_31327fddbfce464790bd70f7413aa5b7.setContent(html_53dfb52055394f828f2ff1f5f66a3ee5);
+            
+
+            circle_marker_cb6ce23ae0a14126a1127878a74bd5db.bindPopup(popup_31327fddbfce464790bd70f7413aa5b7);
+
+            
+        
+    
+            var circle_marker_2b24afa4467a4e38a8a22f6997f44ff7 = L.circleMarker(
+                [40.4555687,-3.636581572751432],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_ee235cfea41945d2988f5c2b0f7b3419 = L.popup({maxWidth: '300'});
+
+            
+                var html_0df1d59e2c8f47c9bc0bed2b062056c1 = $('<div id="html_0df1d59e2c8f47c9bc0bed2b062056c1" style="width: 100.0%; height: 100.0%;">PIOVERA              Cluster 4 / High Income / Low Pop / Mid Age</div>')[0];
+                popup_ee235cfea41945d2988f5c2b0f7b3419.setContent(html_0df1d59e2c8f47c9bc0bed2b062056c1);
+            
+
+            circle_marker_2b24afa4467a4e38a8a22f6997f44ff7.bindPopup(popup_ee235cfea41945d2988f5c2b0f7b3419);
+
+            
+        
+    
+            var circle_marker_68cf86513b8b4a1d8a15770d1d76f381 = L.circleMarker(
+                [40.39037255,-3.648177927828764],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_97d95c1b423441199d5a73800d61fe58 = L.popup({maxWidth: '300'});
+
+            
+                var html_056b9ab04e0d48a085648544ec23b7a3 = $('<div id="html_056b9ab04e0d48a085648544ec23b7a3" style="width: 100.0%; height: 100.0%;">PORTAZGO             Cluster 0 / Low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_97d95c1b423441199d5a73800d61fe58.setContent(html_056b9ab04e0d48a085648544ec23b7a3);
+            
+
+            circle_marker_68cf86513b8b4a1d8a15770d1d76f381.bindPopup(popup_97d95c1b423441199d5a73800d61fe58);
+
+            
+        
+    
+            var circle_marker_4e37dd81e3684c1baa966ce1f4ab858d = L.circleMarker(
+                [40.37863215,-3.7059501892991937],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_c089ed5a6951449e98fbe3cbc8a4c262 = L.popup({maxWidth: '300'});
+
+            
+                var html_56fe5a3b856743e4892b259ce06e190f = $('<div id="html_56fe5a3b856743e4892b259ce06e190f" style="width: 100.0%; height: 100.0%;">PRADOLONGO           Cluster 0 / Low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_c089ed5a6951449e98fbe3cbc8a4c262.setContent(html_56fe5a3b856743e4892b259ce06e190f);
+            
+
+            circle_marker_4e37dd81e3684c1baa966ce1f4ab858d.bindPopup(popup_c089ed5a6951449e98fbe3cbc8a4c262);
+
+            
+        
+    
+            var circle_marker_938a5ca4ef014d73b4639c7b5cc0af88 = L.circleMarker(
+                [40.44541425,-3.66655757224694],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_ae782674552b40ad803f1e88b82ab19b = L.popup({maxWidth: '300'});
+
+            
+                var html_e2abc661e69941539d147ac0fddea6e8 = $('<div id="html_e2abc661e69941539d147ac0fddea6e8" style="width: 100.0%; height: 100.0%;">PROSPERIDAD          Cluster 1 / Mid Income / Mid Pop / High Age</div>')[0];
+                popup_ae782674552b40ad803f1e88b82ab19b.setContent(html_e2abc661e69941539d147ac0fddea6e8);
+            
+
+            circle_marker_938a5ca4ef014d73b4639c7b5cc0af88.bindPopup(popup_ae782674552b40ad803f1e88b82ab19b);
+
+            
+        
+    
+            var circle_marker_401228a278744c7c937318272aef1c70 = L.circleMarker(
+                [40.435032899999996,-3.644171],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_36f0579c8fce46479939297065997f92 = L.popup({maxWidth: '300'});
+
+            
+                var html_dfb8270ef3f34902b8d098fe0d57a56c = $('<div id="html_dfb8270ef3f34902b8d098fe0d57a56c" style="width: 100.0%; height: 100.0%;">PUEBLO NUEVO         Cluster 2 / Mid-low Income / Mid-high Pop / Mid-high age</div>')[0];
+                popup_36f0579c8fce46479939297065997f92.setContent(html_dfb8270ef3f34902b8d098fe0d57a56c);
+            
+
+            circle_marker_401228a278744c7c937318272aef1c70.bindPopup(popup_36f0579c8fce46479939297065997f92);
+
+            
+        
+    
+            var circle_marker_90843b20571e47d6978ff78b517fa8b4 = L.circleMarker(
+                [40.386477500000005,-3.7345593999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_74c7e4ccd37e463ba5164f1c59a042e7 = L.popup({maxWidth: '300'});
+
+            
+                var html_4ca2229ad637425193c055002537b82d = $('<div id="html_4ca2229ad637425193c055002537b82d" style="width: 100.0%; height: 100.0%;">PUERTA BONITA        Cluster 0 / Low Income / Mid Pop / Mid-high age</div>')[0];
+                popup_74c7e4ccd37e463ba5164f1c59a042e7.setContent(html_4ca2229ad637425193c055002537b82d);
+            
+
+            circle_marker_90843b20571e47d6978ff78b517fa8b4.bindPopup(popup_74c7e4ccd37e463ba5164f1c59a042e7);
+
+            
+        
+    
+            var circle_marker_9af058923eb24929ac853afa58504c64 = L.circleMarker(
+                [40.4137225,-3.7271715],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_2236765f5afc492ca66171e1d2422ce4 = L.popup({maxWidth: '300'});
+
+            
+                var html_cabc4ac7527e4eb28c4f4af2dbd13750 = $('<div id="html_cabc4ac7527e4eb28c4f4af2dbd13750" style="width: 100.0%; height: 100.0%;">PUERTA DEL ANGEL     Cluster 2 / Mid-low Income / Mid Pop / High Age</div>')[0];
+                popup_2236765f5afc492ca66171e1d2422ce4.setContent(html_cabc4ac7527e4eb28c4f4af2dbd13750);
+            
+
+            circle_marker_9af058923eb24929ac853afa58504c64.bindPopup(popup_2236765f5afc492ca66171e1d2422ce4);
+
+            
+        
+    
+            var circle_marker_1b8fb7ac65c64e95b19f7d150fc66d7a = L.circleMarker(
+                [40.43737280000001,-3.6436099185322814],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_c382eaa36def405abac680a0129af618 = L.popup({maxWidth: '300'});
+
+            
+                var html_70b2546521e4485bbbb498266c91ca6d = $('<div id="html_70b2546521e4485bbbb498266c91ca6d" style="width: 100.0%; height: 100.0%;">QUINTANA             Cluster 3 / Mid-low Income / Mid-low Pop / High Age</div>')[0];
+                popup_c382eaa36def405abac680a0129af618.setContent(html_70b2546521e4485bbbb498266c91ca6d);
+            
+
+            circle_marker_1b8fb7ac65c64e95b19f7d150fc66d7a.bindPopup(popup_c382eaa36def405abac680a0129af618);
+
+            
+        
+    
+            var circle_marker_d020b18081ea41699d4546128493d6bd = L.circleMarker(
+                [40.42417315,-3.685487264974136],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_a8a6f3a0a64b40b3bd02d6ba7b4d80ff = L.popup({maxWidth: '300'});
+
+            
+                var html_eee60adff40c454ebaa420a96cca59f0 = $('<div id="html_eee60adff40c454ebaa420a96cca59f0" style="width: 100.0%; height: 100.0%;">RECOLETOS            Cluster 4 / High Income / Low Pop / High Age</div>')[0];
+                popup_a8a6f3a0a64b40b3bd02d6ba7b4d80ff.setContent(html_eee60adff40c454ebaa420a96cca59f0);
+            
+
+            circle_marker_d020b18081ea41699d4546128493d6bd.bindPopup(popup_a8a6f3a0a64b40b3bd02d6ba7b4d80ff);
+
+            
+        
+    
+            var circle_marker_918c5562c5744a14ace113926e182994 = L.circleMarker(
+                [40.4440818,-3.5696561398469453],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_d4923e08f8294022ae074c4e3f303343 = L.popup({maxWidth: '300'});
+
+            
+                var html_051361ec8f4a4f4a815d617684a5ca96 = $('<div id="html_051361ec8f4a4f4a815d617684a5ca96" style="width: 100.0%; height: 100.0%;">REJAS                Cluster 3 / Mid Income / Mid-low Pop / Mid Age</div>')[0];
+                popup_d4923e08f8294022ae074c4e3f303343.setContent(html_051361ec8f4a4f4a815d617684a5ca96);
+            
+
+            circle_marker_918c5562c5744a14ace113926e182994.bindPopup(popup_d4923e08f8294022ae074c4e3f303343);
+
+            
+        
+    
+            var circle_marker_2d73937348c5488daa8bac94219680a3 = L.circleMarker(
+                [40.44279905000001,-3.6978351704467944],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_7cf877a5ec864e71b215786bb1e30260 = L.popup({maxWidth: '300'});
+
+            
+                var html_7b9ce0ad4c10464cbfe6d709ccd4b12b = $('<div id="html_7b9ce0ad4c10464cbfe6d709ccd4b12b" style="width: 100.0%; height: 100.0%;">RIOS ROSAS           Cluster 1 / Mid-high Income / Mid-low Pop / High Age</div>')[0];
+                popup_7cf877a5ec864e71b215786bb1e30260.setContent(html_7b9ce0ad4c10464cbfe6d709ccd4b12b);
+            
+
+            circle_marker_2d73937348c5488daa8bac94219680a3.bindPopup(popup_7cf877a5ec864e71b215786bb1e30260);
+
+            
+        
+    
+            var circle_marker_35f3418a310a4a2194c07dce9c964623 = L.circleMarker(
+                [40.42871335,-3.5937580015210777],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_7fec8b2d68814acf9ed5d7d02b69a082 = L.popup({maxWidth: '300'});
+
+            
+                var html_876d1d0fda6c49d98ec260d3871cd211 = $('<div id="html_876d1d0fda6c49d98ec260d3871cd211" style="width: 100.0%; height: 100.0%;">ROSAS                Cluster 3 / Mid Income / Mid Pop / Mid Age</div>')[0];
+                popup_7fec8b2d68814acf9ed5d7d02b69a082.setContent(html_876d1d0fda6c49d98ec260d3871cd211);
+            
+
+            circle_marker_35f3418a310a4a2194c07dce9c964623.bindPopup(popup_7fec8b2d68814acf9ed5d7d02b69a082);
+
+            
+        
+    
+            var circle_marker_c6272b10c3ed43dcb905cfc8adbe538f = L.circleMarker(
+                [40.34151729999999,-3.7115864999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_0dcfe45dfea94595a7e41cff20712c57 = L.popup({maxWidth: '300'});
+
+            
+                var html_14fc1f62a773430993a0ca609ca79a7e = $('<div id="html_14fc1f62a773430993a0ca609ca79a7e" style="width: 100.0%; height: 100.0%;">SAN ANDRES           Cluster 2 / Low Income / Mid Pop / Mid-high age</div>')[0];
+                popup_0dcfe45dfea94595a7e41cff20712c57.setContent(html_14fc1f62a773430993a0ca609ca79a7e);
+            
+
+            circle_marker_c6272b10c3ed43dcb905cfc8adbe538f.bindPopup(popup_0dcfe45dfea94595a7e41cff20712c57);
+
+            
+        
+    
+            var circle_marker_168c91708e3c4e4eb25f210c2e4342b4 = L.circleMarker(
+                [40.34326305,-3.688352297394898],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_c6199645042e40ec9b51442b56648bc1 = L.popup({maxWidth: '300'});
+
+            
+                var html_194e8063f2544a58a9b67f912872f68f = $('<div id="html_194e8063f2544a58a9b67f912872f68f" style="width: 100.0%; height: 100.0%;">SAN CRISTOBAL        Cluster 0 / Low Income / Low Pop / Mid Age</div>')[0];
+                popup_c6199645042e40ec9b51442b56648bc1.setContent(html_194e8063f2544a58a9b67f912872f68f);
+            
+
+            circle_marker_168c91708e3c4e4eb25f210c2e4342b4.bindPopup(popup_c6199645042e40ec9b51442b56648bc1);
+
+            
+        
+    
+            var circle_marker_4303547fd1cd48ae8fc73d0f09a47b7a = L.circleMarker(
+                [40.38943870000001,-3.6677411263176674],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_b74bc7efa3ed47d08db8aebac5ef4d62 = L.popup({maxWidth: '300'});
+
+            
+                var html_ab32e6fc96d74c4cafaa1123d132f46a = $('<div id="html_ab32e6fc96d74c4cafaa1123d132f46a" style="width: 100.0%; height: 100.0%;">SAN DIEGO            Cluster 0 / Low Income / Mid Pop / Mid Age</div>')[0];
+                popup_b74bc7efa3ed47d08db8aebac5ef4d62.setContent(html_ab32e6fc96d74c4cafaa1123d132f46a);
+            
+
+            circle_marker_4303547fd1cd48ae8fc73d0f09a47b7a.bindPopup(popup_b74bc7efa3ed47d08db8aebac5ef4d62);
+
+            
+        
+    
+            var circle_marker_e9570e16b30e44d9bdc4f582211acf3c = L.circleMarker(
+                [40.3719909,-3.6903920331665687],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_a6a7a70b6948405c99c8880042ca8139 = L.popup({maxWidth: '300'});
+
+            
+                var html_9e2493581d234fc98521927b6ff0d299 = $('<div id="html_9e2493581d234fc98521927b6ff0d299" style="width: 100.0%; height: 100.0%;">SAN FERMIN           Cluster 0 / Low Income / Mid-low Pop / Mid Age</div>')[0];
+                popup_a6a7a70b6948405c99c8880042ca8139.setContent(html_9e2493581d234fc98521927b6ff0d299);
+            
+
+            circle_marker_e9570e16b30e44d9bdc4f582211acf3c.bindPopup(popup_a6a7a70b6948405c99c8880042ca8139);
+
+            
+        
+    
+            var circle_marker_6a09cc34ccf34d958175669eef8a07dd = L.circleMarker(
+                [40.39777,-3.71855],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_676ec16ca1a640fc8e07250e68164d8c = L.popup({maxWidth: '300'});
+
+            
+                var html_7c75cea0a36d49c4a3520f00b0a7198d = $('<div id="html_7c75cea0a36d49c4a3520f00b0a7198d" style="width: 100.0%; height: 100.0%;">SAN ISIDRO           Cluster 0 / Mid-low Income / Mid Pop / Mid-high age</div>')[0];
+                popup_676ec16ca1a640fc8e07250e68164d8c.setContent(html_7c75cea0a36d49c4a3520f00b0a7198d);
+            
+
+            circle_marker_6a09cc34ccf34d958175669eef8a07dd.bindPopup(popup_676ec16ca1a640fc8e07250e68164d8c);
+
+            
+        
+    
+            var circle_marker_2a63523b80454acc832865fadbba3b92 = L.circleMarker(
+                [40.45087879999999,-3.655924108363301],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_d03496f9cfe64c02846654b69a006fad = L.popup({maxWidth: '300'});
+
+            
+                var html_cd3b997b874544a7abc002e067537cd9 = $('<div id="html_cd3b997b874544a7abc002e067537cd9" style="width: 100.0%; height: 100.0%;">SAN JUAN BAUTISTA    Cluster 1 / Mid-high Income / Low Pop / Mid-high age</div>')[0];
+                popup_d03496f9cfe64c02846654b69a006fad.setContent(html_cd3b997b874544a7abc002e067537cd9);
+            
+
+            circle_marker_2a63523b80454acc832865fadbba3b92.bindPopup(popup_d03496f9cfe64c02846654b69a006fad);
+
+            
+        
+    
+            var circle_marker_8b5ff379e482442d8dc36a1abc19f2c3 = L.circleMarker(
+                [40.44292125,-3.653916821911728],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_f055849c09b64461aa0edb82b33b9e8d = L.popup({maxWidth: '300'});
+
+            
+                var html_7ab5291825314db1b7424a3a1eae9288 = $('<div id="html_7ab5291825314db1b7424a3a1eae9288" style="width: 100.0%; height: 100.0%;">SAN PASCUAL          Cluster 3 / Mid Income / Mid-low Pop / High Age</div>')[0];
+                popup_f055849c09b64461aa0edb82b33b9e8d.setContent(html_7ab5291825314db1b7424a3a1eae9288);
+            
+
+            circle_marker_8b5ff379e482442d8dc36a1abc19f2c3.bindPopup(popup_f055849c09b64461aa0edb82b33b9e8d);
+
+            
+        
+    
+            var circle_marker_4e668bf0084940ffbc855ac7bbd60995 = L.circleMarker(
+                [40.38340315000001,-3.613493076879776],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_2c350d94ad9f49ef8bf3ab1051018679 = L.popup({maxWidth: '300'});
+
+            
+                var html_cc9d0ad2cb934b54b12f6b4b72353d52 = $('<div id="html_cc9d0ad2cb934b54b12f6b4b72353d52" style="width: 100.0%; height: 100.0%;">SANTA EUGENIA        Cluster 3 / Mid-low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_2c350d94ad9f49ef8bf3ab1051018679.setContent(html_cc9d0ad2cb934b54b12f6b4b72353d52);
+            
+
+            circle_marker_4e668bf0084940ffbc855ac7bbd60995.bindPopup(popup_2c350d94ad9f49ef8bf3ab1051018679);
+
+            
+        
+    
+            var circle_marker_aa8884b131404f8c86b235bb39e28c15 = L.circleMarker(
+                [40.4275549,-3.6229906],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_cd6b72c8efe84b3489334423f5c75ff8 = L.popup({maxWidth: '300'});
+
+            
+                var html_431afeb12d3e42d2bf8e5a5aae106624 = $('<div id="html_431afeb12d3e42d2bf8e5a5aae106624" style="width: 100.0%; height: 100.0%;">SIMANCAS             Cluster 0 / Low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_cd6b72c8efe84b3489334423f5c75ff8.setContent(html_431afeb12d3e42d2bf8e5a5aae106624);
+            
+
+            circle_marker_aa8884b131404f8c86b235bb39e28c15.bindPopup(popup_cd6b72c8efe84b3489334423f5c75ff8);
+
+            
+        
+    
+            var circle_marker_6b779dd4806543e097862eefc086d552 = L.circleMarker(
+                [40.417827200000005,-3.7022220899150735],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_6a61438bc67b4c15b9165a16442f9375 = L.popup({maxWidth: '300'});
+
+            
+                var html_028f0738b4674e4988542a6684bca171 = $('<div id="html_028f0738b4674e4988542a6684bca171" style="width: 100.0%; height: 100.0%;">SOL                  Cluster 3 / Mid Income / Low Pop / Mid-high age</div>')[0];
+                popup_6a61438bc67b4c15b9165a16442f9375.setContent(html_028f0738b4674e4988542a6684bca171);
+            
+
+            circle_marker_6b779dd4806543e097862eefc086d552.bindPopup(popup_6a61438bc67b4c15b9165a16442f9375);
+
+            
+        
+    
+            var circle_marker_0250154cac83400a8ae173b1b92ee346 = L.circleMarker(
+                [40.4767,-3.6141699999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_69f707aad31f4c20865c43de8e92efe7 = L.popup({maxWidth: '300'});
+
+            
+                var html_f3ab3882bcd44e268366c2f5c0813bce = $('<div id="html_f3ab3882bcd44e268366c2f5c0813bce" style="width: 100.0%; height: 100.0%;">TIMON                Cluster 3 / Mid Income / Low Pop / Mid-low Age</div>')[0];
+                popup_69f707aad31f4c20865c43de8e92efe7.setContent(html_f3ab3882bcd44e268366c2f5c0813bce);
+            
+
+            circle_marker_0250154cac83400a8ae173b1b92ee346.bindPopup(popup_69f707aad31f4c20865c43de8e92efe7);
+
+            
+        
+    
+            var circle_marker_182ec7f4b83840d5bef0030d8b4034ad = L.circleMarker(
+                [40.433249100000005,-3.7012458957983654],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_5cc79ffb516e49e493060aa9ed5df29e = L.popup({maxWidth: '300'});
+
+            
+                var html_9b904ada6e604621b96ef18d92c33a56 = $('<div id="html_9b904ada6e604621b96ef18d92c33a56" style="width: 100.0%; height: 100.0%;">TRAFALGAR            Cluster 1 / Mid-high Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_5cc79ffb516e49e493060aa9ed5df29e.setContent(html_9b904ada6e604621b96ef18d92c33a56);
+            
+
+            circle_marker_182ec7f4b83840d5bef0030d8b4034ad.bindPopup(popup_5cc79ffb516e49e493060aa9ed5df29e);
+
+            
+        
+    
+            var circle_marker_0ae66f45d9a540f2893c0ff414087e41 = L.circleMarker(
+                [40.425264399999996,-3.7066059690556767],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_4c45a25fec5640db8d446a63aae4378d = L.popup({maxWidth: '300'});
+
+            
+                var html_667f274549f54fdb931c996b88198594 = $('<div id="html_667f274549f54fdb931c996b88198594" style="width: 100.0%; height: 100.0%;">UNIVERSIDAD          Cluster 3 / Mid Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_4c45a25fec5640db8d446a63aae4378d.setContent(html_667f274549f54fdb931c996b88198594);
+            
+
+            circle_marker_0ae66f45d9a540f2893c0ff414087e41.bindPopup(popup_4c45a25fec5640db8d446a63aae4378d);
+
+            
+        
+    
+            var circle_marker_9a68fa74eb0e40ef9dc950e874391249 = L.circleMarker(
+                [40.46715645,-3.704583848338933],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_ad75ac788c964278952ce5a0ccceca04 = L.popup({maxWidth: '300'});
+
+            
+                var html_a994900b491042e69fb084e71db7cbe7 = $('<div id="html_a994900b491042e69fb084e71db7cbe7" style="width: 100.0%; height: 100.0%;">VALDEACEDERAS        Cluster 0 / Mid-low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_ad75ac788c964278952ce5a0ccceca04.setContent(html_a994900b491042e69fb084e71db7cbe7);
+            
+
+            circle_marker_9a68fa74eb0e40ef9dc950e874391249.bindPopup(popup_ad75ac788c964278952ce5a0ccceca04);
+
+            
+        
+    
+            var circle_marker_e74bbfc88e9747eda34e72215256443c = L.circleMarker(
+                [40.3999118,-3.621522],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_9077c77f3bf0421a940bdbbbea1976fb = L.popup({maxWidth: '300'});
+
+            
+                var html_09a8bb05054d4996837f8fd051e9a971 = $('<div id="html_09a8bb05054d4996837f8fd051e9a971" style="width: 100.0%; height: 100.0%;">VALDEBERNARDO Cluster 3 / Mid-low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_9077c77f3bf0421a940bdbbbea1976fb.setContent(html_09a8bb05054d4996837f8fd051e9a971);
+            
+
+            circle_marker_e74bbfc88e9747eda34e72215256443c.bindPopup(popup_9077c77f3bf0421a940bdbbbea1976fb);
+
+            
+        
+    
+            var circle_marker_58d2bfb6cce0453f83555baca43c339f = L.circleMarker(
+                [40.49052005,-3.6383207088492813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_48129113d87d478cb994632e5402fada = L.popup({maxWidth: '300'});
+
+            
+                var html_d5bfdfbbd18b4d74ad18fa6dfb72ecd8 = $('<div id="html_d5bfdfbbd18b4d74ad18fa6dfb72ecd8" style="width: 100.0%; height: 100.0%;">VALDEFUENTES         Cluster 2 / Mid Income / Mid-high Pop / Low Age</div>')[0];
+                popup_48129113d87d478cb994632e5402fada.setContent(html_d5bfdfbbd18b4d74ad18fa6dfb72ecd8);
+            
+
+            circle_marker_58d2bfb6cce0453f83555baca43c339f.bindPopup(popup_48129113d87d478cb994632e5402fada);
+
+            
+        
+    
+            var circle_marker_292f11df072b434d82a714e8eb3cc773 = L.circleMarker(
+                [40.46685345,-3.7870925281716223],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_1eb7aa0cb19946dc919fd018eaccf503 = L.popup({maxWidth: '300'});
+
+            
+                var html_65efd4e42b3d4503aa71b5ae1bbc1cc8 = $('<div id="html_65efd4e42b3d4503aa71b5ae1bbc1cc8" style="width: 100.0%; height: 100.0%;">VALDEMARIN           Cluster 4 / High Income / Low Pop / Mid-low Age</div>')[0];
+                popup_1eb7aa0cb19946dc919fd018eaccf503.setContent(html_65efd4e42b3d4503aa71b5ae1bbc1cc8);
+            
+
+            circle_marker_292f11df072b434d82a714e8eb3cc773.bindPopup(popup_1eb7aa0cb19946dc919fd018eaccf503);
+
+            
+        
+    
+            var circle_marker_3acf5c2a4594456da3aa36c3eddb5fe6 = L.circleMarker(
+                [40.3991269,-3.603187957368319],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_1c27544196ad4e04803c5f40da977ddf = L.popup({maxWidth: '300'});
+
+            
+                var html_320b54c3663f4e9f82740fff0a105589 = $('<div id="html_320b54c3663f4e9f82740fff0a105589" style="width: 100.0%; height: 100.0%;">VALDERRIVAS Cluster 3 / Mid-low Income / Mid-low Pop / Mid-high age</div>')[0];
+                popup_1c27544196ad4e04803c5f40da977ddf.setContent(html_320b54c3663f4e9f82740fff0a105589);
+            
+
+            circle_marker_3acf5c2a4594456da3aa36c3eddb5fe6.bindPopup(popup_1c27544196ad4e04803c5f40da977ddf);
+
+            
+        
+    
+            var circle_marker_b425e0219d3d4ef8a4862d809ea21027 = L.circleMarker(
+                [40.46530915,-3.716958056101349],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_60ff153afc2449aaaaacccc4875d95b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_e8813464ade646c4977a2eed0cb69a8f = $('<div id="html_e8813464ade646c4977a2eed0cb69a8f" style="width: 100.0%; height: 100.0%;">VALDEZARZA           Cluster 3 / Mid-low Income / Mid-low Pop / High Age</div>')[0];
+                popup_60ff153afc2449aaaaacccc4875d95b7.setContent(html_e8813464ade646c4977a2eed0cb69a8f);
+            
+
+            circle_marker_b425e0219d3d4ef8a4862d809ea21027.bindPopup(popup_60ff153afc2449aaaaacccc4875d95b7);
+
+            
+        
+    
+            var circle_marker_383dc146004a4269a76e8038381e7d1a = L.circleMarker(
+                [40.443057200000005,-3.7116809920844496],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_5bd5e6d96a8d43e8b01044472c6fc4cd = L.popup({maxWidth: '300'});
+
+            
+                var html_fe482fea230a47b3b40789e4663529e5 = $('<div id="html_fe482fea230a47b3b40789e4663529e5" style="width: 100.0%; height: 100.0%;">VALLEHERMOSO         Cluster 1 / Mid-high Income / Mid-low Pop / High Age</div>')[0];
+                popup_5bd5e6d96a8d43e8b01044472c6fc4cd.setContent(html_fe482fea230a47b3b40789e4663529e5);
+            
+
+            circle_marker_383dc146004a4269a76e8038381e7d1a.bindPopup(popup_5bd5e6d96a8d43e8b01044472c6fc4cd);
+
+            
+        
+    
+            var circle_marker_e20853f26cab4a17b163e7d4f3a87d38 = L.circleMarker(
+                [40.5011401,-3.6785916352249592],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_bee8a7dd0a7942c588f5e5f2bc6486df = L.popup({maxWidth: '300'});
+
+            
+                var html_472a85b3f86d4c71b375907605166c65 = $('<div id="html_472a85b3f86d4c71b375907605166c65" style="width: 100.0%; height: 100.0%;">VALVERDE             Cluster 2 / Mid Income / Mid-high Pop / Mid-low Age</div>')[0];
+                popup_bee8a7dd0a7942c588f5e5f2bc6486df.setContent(html_472a85b3f86d4c71b375907605166c65);
+            
+
+            circle_marker_e20853f26cab4a17b163e7d4f3a87d38.bindPopup(popup_bee8a7dd0a7942c588f5e5f2bc6486df);
+
+            
+        
+    
+            var circle_marker_2a802607944f4fb58be33886f03c8e25 = L.circleMarker(
+                [40.4240502,-3.650303778136285],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_2810b48848164ecba1acbae3eb590c63 = L.popup({maxWidth: '300'});
+
+            
+                var html_167935281e6a439fb82212f1d7eab8cf = $('<div id="html_167935281e6a439fb82212f1d7eab8cf" style="width: 100.0%; height: 100.0%;">VENTAS               Cluster 2 / Mid-low Income / Mid-high Pop / High Age</div>')[0];
+                popup_2810b48848164ecba1acbae3eb590c63.setContent(html_167935281e6a439fb82212f1d7eab8cf);
+            
+
+            circle_marker_2a802607944f4fb58be33886f03c8e25.bindPopup(popup_2810b48848164ecba1acbae3eb590c63);
+
+            
+        
+    
+            var circle_marker_b4b86d43f2b94228964e9f542b2b7415 = L.circleMarker(
+                [40.40536375,-3.644658115871184],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_bf496becab16498ab93e18c49922151d = L.popup({maxWidth: '300'});
+
+            
+                var html_a28b94a04242483482621f1f154e33ae = $('<div id="html_a28b94a04242483482621f1f154e33ae" style="width: 100.0%; height: 100.0%;">VINATEROS            Cluster 3 / Mid-low Income / Mid-low Pop / High Age</div>')[0];
+                popup_bf496becab16498ab93e18c49922151d.setContent(html_a28b94a04242483482621f1f154e33ae);
+            
+
+            circle_marker_b4b86d43f2b94228964e9f542b2b7415.bindPopup(popup_bf496becab16498ab93e18c49922151d);
+
+            
+        
+    
+            var circle_marker_184e8e2e141941e2b615d6b03ea92a97 = L.circleMarker(
+                [40.388788299999995,-3.7400441],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_4f0ff87f8b684d2e8ef28b9666444e14 = L.popup({maxWidth: '300'});
+
+            
+                var html_0dc21619bb974a42b4c0907628244805 = $('<div id="html_0dc21619bb974a42b4c0907628244805" style="width: 100.0%; height: 100.0%;">VISTA ALEGRE         Cluster 2 / Mid-low Income / Mid Pop / High Age</div>')[0];
+                popup_4f0ff87f8b684d2e8ef28b9666444e14.setContent(html_0dc21619bb974a42b4c0907628244805);
+            
+
+            circle_marker_184e8e2e141941e2b615d6b03ea92a97.bindPopup(popup_4f0ff87f8b684d2e8ef28b9666444e14);
+
+            
+        
+    
+            var circle_marker_eba59af58d044483a2c0a40ac009336a = L.circleMarker(
+                [40.37980770000001,-3.715211588744261],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dbac2cae45fb4c28b0db10627a6773e2);
+            
+    
+            var popup_1c5dc4f8214448f3bbf6f5cca9ca6adf = L.popup({maxWidth: '300'});
+
+            
+                var html_ae4e6e569cdf422582fbe2b297327f37 = $('<div id="html_ae4e6e569cdf422582fbe2b297327f37" style="width: 100.0%; height: 100.0%;">ZOFIO                Cluster 0 / Low Income / Low Pop / Mid-high age</div>')[0];
+                popup_1c5dc4f8214448f3bbf6f5cca9ca6adf.setContent(html_ae4e6e569cdf422582fbe2b297327f37);
+            
+
+            circle_marker_eba59af58d044483a2c0a40ac009336a.bindPopup(popup_1c5dc4f8214448f3bbf6f5cca9ca6adf);
+
+            
+        
+</script>
